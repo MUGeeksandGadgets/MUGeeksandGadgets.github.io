@@ -501,7 +501,7 @@ main {
 /*FOOTER*/
 
 #footer_accent {
-    background-color: #676767;
+    background-color: $accentColor;
     width: 100%;
     height: 30%;
 }
@@ -509,7 +509,7 @@ main {
 #MUGG {
     margin: 0;
     padding: 0;
-    color: #C5C5C4;
+    color: $pageTitleColor;
     font-size: 2.2em;
     text-align: center;
     height: 1.4em;
@@ -628,7 +628,7 @@ main {
 }
 
 #bduke a:hover {
-    color: #199D72;
+    color: $hoverColor;
 }
 
 
@@ -652,7 +652,7 @@ body {
 }
 
 #footer {
-    background: #125D53;
+    background: $mainColor;
     width: 100%;
     height: 12em;
     position: absolute;
