@@ -1,0 +1,56 @@
+/**********BEGIN ABOUT**********/
+
+
+/*TABLE*/
+
+#mainAbout table {
+    width: 100%;
+}
+
+
+/*TABLE:NARROW SCREEN*/
+
+@media only screen and (max-width: 1000px) {
+    #mainAbout table,
+    #mainAbout thead,
+    #mainAbout tbody,
+    #mainAbout th,
+    #mainAbout tr,
+    #mainAbout td {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+/*TEXT*/
+
+#mainAbout h1,
+#mainAbout h2,
+#mainAbout h3,
+#mainAbout h4,
+#mainAbout p {
+    text-align: center;
+}
+
+
+/*IMAGES:WIDE SCREEN*/
+
+@media only screen and (min-width: 1001px) {
+    #mainAbout img {
+        width: 20vw;
+    }
+}
+
+
+/*IMAGES:NARROW SCREEN*/
+
+@media only screen and (max-width: 1000px) {
+    #mainAbout img {
+        width: 40vw;
+    }
+}
+
+
+/**********END ABOUT**********/

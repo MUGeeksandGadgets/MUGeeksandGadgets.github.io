@@ -634,9 +634,8 @@ body {
 #mainAbout table {
   width: 100%; }
 
-/*NARROW SCREEN*/
+/*TABLE:NARROW SCREEN*/
 @media only screen and (max-width: 1000px) {
-  /*TABLE*/
   #mainAbout table,
   #mainAbout thead,
   #mainAbout tbody,
@@ -654,14 +653,12 @@ body {
 #mainAbout p {
   text-align: center; }
 
-/*WIDE SCREEN*/
+/*IMAGES:WIDE SCREEN*/
 @media only screen and (min-width: 1001px) {
-  /*IMAGES*/
   #mainAbout img {
     width: 20vw; } }
-/*NARROW SCREEN*/
+/*IMAGES:NARROW SCREEN*/
 @media only screen and (max-width: 1000px) {
-  /*IMAGES*/
   #mainAbout img {
     width: 40vw; } }
 /**********END ABOUT**********/
@@ -676,7 +673,7 @@ body {
   border-spacing: 5em; }
 
 .resourcesNav tr td {
-  border-bottom: .2em solid #125D53;
+  border-bottom: 0.2em solid #125D53;
   overflow: hidden; }
 
 .resourcesNav tr td:last-child {
