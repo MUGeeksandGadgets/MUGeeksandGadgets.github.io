@@ -1,88 +1,6 @@
-$fontColor: #2F2F2F;
-$mainColor: #125D53;
-$mainColorAccent: #277369;
-$accentColor: #676767;
-$hoverColor: #199D72;
-$pageTitleColor: #C5C5C4;
-$menuBtnLinesColor: #5BBF9E;
-
-/*FONT IMPORT*/
-
-@font-face {
-    font-family: Ubuntu-Regular;
-    src: url(Ubuntu-Regular.ttf);
-}
-
-
-/*FONT*/
-
-* {
-    font-family: 'Ubuntu-Regular';
-    color: $fontColor;
-}
-
-
-/*TEXT*/
-
-main h1 {
-    font-size: 2em;
-}
-
-main h2 {
-    font-size: 1.8em;
-}
-
-main h3 {
-    font-size: 1.7em;
-}
-
-main h4 {
-    font-size: 1.6em;
-}
-
-main p {
-    font-size: 1.5em;
-}
-
-
-/*LINK COLOR*/
-
-#content a {
-    transition: .25s linear;
-}
-
-#content a:hover {
-    color: $hoverColor;
-}
-
-
-/*WIDE SCREEN*/
+/*NAV:WIDE SCREEN*/
 
 @media only screen and (min-width: 1001px) {
-    main {
-        width: 70%;
-    }
-}
-
-
-/*NARROW SCREEN*/
-
-@media only screen and (max-width: 1000px) {
-    main {
-        width: 90%;
-    }
-}
-
-main {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-/*WIDE SCREEN*/
-
-@media only screen and (min-width: 1001px) {
-    /*NAV BAR*/
     #navContainer * {
         padding: 0;
         margin: 0;
@@ -108,7 +26,7 @@ main {
     #navAccent {
         position: absolute;
         bottom: 0;
-        background-color: $accentColor;
+        background-color: $mainAccent;
         width: 100%;
         height: 3.6em;
     }
@@ -129,7 +47,7 @@ main {
         transition: background-color .3s linear;
     }
     #nav ul li:hover {
-        background: $mainColorAccent;
+        background: $mainColorShade;
     }
     #nav ul li a:hover {
         color: $hoverColor;
@@ -214,7 +132,7 @@ main {
     }
     /*PG TITLE*/
     #pgTitleD {
-        color: $pageTitleColor;
+        color: $lighterFontColor;
         font-size: 2.2em;
         text-align: center;
         height: 1.4em;
@@ -248,10 +166,9 @@ main {
 }
 
 
-/*NARROW SCREEN*/
+/*NAV:NARROW SCREEN*/
 
 @media only screen and (max-width: 1000px) {
-    /*NAV BAR*/
     /* Navigation Menu - Background */
     #nav {
         background-color: $mainColor;
@@ -284,7 +201,7 @@ main {
         overflow: hidden;
     }
     #nav ul li:hover {
-        background-color: #277369;
+        background-color: $mainColorShade;
     }
     #nav p {
         text-align: left;
@@ -347,7 +264,7 @@ main {
         bottom: 0;
         height: 3em;
         width: 100%;
-        background-color: $accentColor;
+        background-color: $mainAccent;
     }
     .nav-trigger:checked~ #blueBlock {
         box-shadow: 0 0 7px 7px rgba(0, 0, 0, 0.4);
@@ -373,7 +290,7 @@ main {
         display: none;
     }
     #pgTitleM {
-        color: $pageTitleColor;
+        color: $lighterFontColor;
         font-size: 2em;
         text-align: center;
         margin-top: .25em;
@@ -424,7 +341,6 @@ main {
         display: block;
         width: 1.5em;
         height: .2em;
-        background-color: #0D496D;
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
         -ms-transition: all 0.3s;
@@ -435,19 +351,19 @@ main {
     .clear-menu-btn .top {
         top: 35%;
         margin-left: .75em;
-        background-color: $menuBtnLinesColor;
+        background-color: $navHamAccent;
         z-index: 1;
     }
     .clear-menu-btn .middle {
         top: 50%;
         margin-left: .75em;
-        background-color: $menuBtnLinesColor;
+        background-color: $navHamAccent;
         z-index: 1;
     }
     .clear-menu-btn .bottom {
         top: 65%;
         margin-left: .75em;
-        background-color: $menuBtnLinesColor;
+        background-color: $navHamAccent;
         z-index: 1;
     }
     .clear-menu-btn .circle {
@@ -463,7 +379,7 @@ main {
         width: 2.5em;
         height: 2.5em;
         background-color: transparent;
-        border: .2em solid $hoverColor;
+        border: .2em solid $navHamMain;
         -webkit-transition: all 0.5s;
         -moz-transition: all 0.5s;
         -ms-transition: all 0.5s;
@@ -495,167 +411,4 @@ main {
     body {
         overflow-x: hidden;
     }
-}
-
-
-/*FOOTER*/
-
-#footer_accent {
-    background-color: $accentColor;
-    width: 100%;
-    height: 30%;
-}
-
-#MUGG {
-    margin: 0;
-    padding: 0;
-    color: $pageTitleColor;
-    font-size: 2.2em;
-    text-align: center;
-    height: 1.4em;
-    line-height: 1.4em;
-    white-space: nowrap;
-}
-
-
-/*FOOTER CONTENT*/
-
-#footerContent {
-    height: 70%;
-    width: 100%;
-    box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.19), 0 -6px 6px rgba(0, 0, 0, 0.23);
-}
-
-#connect {
-    height: 30%;
-}
-
-#connect h2 {
-    text-align: center;
-    padding-top: .4em;
-    margin: 0;
-    color: white;
-}
-
-
-/*FOOTER SOCIAL ICONS*/
-
-
-/*WIDE SCREEN*/
-
-@media only screen and (min-width: 1001px) {
-    #connectSocial {
-        height: 70%;
-        width: 80%;
-    }
-    #connectSocial img {
-        height: 60%;
-    }
-}
-
-
-/*NARROW SCREEN*/
-
-@media only screen and (max-width: 1000px) {
-    #connectSocial {
-        height: 60%;
-        width: 95%;
-    }
-    #connectSocial img {
-        height: 55%;
-    }
-}
-
-#connectSocial {
-    margin: auto;
-    text-align: justify;
-}
-
-#connectSocial img {
-    display: inline-block;
-    vertical-align: top;
-    /* IE fix. */
-    *display: inline;
-    zoom: 1;
-}
-
-#connectSocial:after {
-    content: "";
-    width: 100%;
-    display: inline-block;
-}
-
-#connectSocial img {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-#connectSocial img {
-    opacity: 1;
-    transition: visibility 0s .25s, opacity .25s linear;
-}
-
-#connectSocial:hover img {
-    opacity: 0.2;
-    transition: opacity .25s linear;
-}
-
-#connectSocial:hover img:hover {
-    opacity: 1;
-    transition: visibility 0s .25s, opacity .25s linear;
-}
-
-
-/*bduke site*/
-
-#bduke {
-    position: absolute;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: .5em;
-    padding-right: .5em;
-    margin: 0;
-    bottom: 0;
-    right: 0;
-}
-
-#bduke a {
-    font-size: 1em;
-    text-decoration: none;
-    transition: .25s linear;
-    color: white;
-}
-
-#bduke a:hover {
-    color: $hoverColor;
-}
-
-
-/*FOOTER> KEEP AT BOTTOM*/
-
-html,
-body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
-#wrapper {
-    min-height: 100%;
-    position: relative;
-}
-
-#content {
-    padding-bottom: 12em;
-    /* Height of the footer element */
-}
-
-#footer {
-    background: $mainColor;
-    width: 100%;
-    height: 12em;
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }

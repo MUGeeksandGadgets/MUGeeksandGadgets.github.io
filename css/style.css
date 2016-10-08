@@ -1,3 +1,4 @@
+/**********BEGIN GLOBAKL CSS**********/
 /*CSS RESET*/
 html,
 body {
@@ -8,7 +9,6 @@ body {
   font: inherit;
   vertical-align: baseline; }
 
-/**********BEGIN GLOBAKL CSS**********/
 /*FONT IMPORT*/
 @font-face {
   font-family: Ubuntu-Regular;
@@ -34,18 +34,11 @@ main h4 {
 main p {
   font-size: 1.5em; }
 
-/*LINK COLOR*/
-#content a {
-  transition: .25s linear; }
-
-#content a:hover {
-  color: #199D72; }
-
-/*WIDE SCREEN*/
+/*SCREEN SIZE:WIDE SCREEN*/
 @media only screen and (min-width: 1001px) {
   main {
     width: 70%; } }
-/*NARROW SCREEN*/
+/*SCREEN SIZE:NARROW SCREEN*/
 @media only screen and (max-width: 1000px) {
   main {
     width: 90%; } }
@@ -53,9 +46,8 @@ main {
   margin-left: auto;
   margin-right: auto; }
 
-/*WIDE SCREEN*/
+/*NAV:WIDE SCREEN*/
 @media only screen and (min-width: 1001px) {
-  /*NAV BAR*/
   #navContainer * {
     padding: 0;
     margin: 0; }
@@ -217,9 +209,8 @@ main {
 
   #navHome {
     display: none; } }
-/*NARROW SCREEN*/
+/*NAV:NARROW SCREEN*/
 @media only screen and (max-width: 1000px) {
-  /*NAV BAR*/
   /* Navigation Menu - Background */
   #nav {
     background-color: #125D53;
@@ -392,7 +383,6 @@ main {
     display: block;
     width: 1.5em;
     height: .2em;
-    background-color: #0D496D;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -462,6 +452,13 @@ main {
   /* Without this, the body has excess horizontal scroll when the menu is open */
   body {
     overflow-x: hidden; } }
+/*LINK COLOR*/
+#content a {
+  transition: .25s linear; }
+
+#content a:hover {
+  color: #199D72; }
+
 /*FOOTER*/
 #footer_accent {
   background-color: #676767;
