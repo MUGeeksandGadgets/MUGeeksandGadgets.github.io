@@ -46,6 +46,13 @@ main {
   margin-left: auto;
   margin-right: auto; }
 
+/*LINK COLOR*/
+#content a {
+  transition: .25s linear; }
+
+#content a:hover {
+  color: #199D72; }
+
 /*NAV:WIDE SCREEN*/
 @media only screen and (min-width: 1001px) {
   #navContainer * {
@@ -452,13 +459,6 @@ main {
   /* Without this, the body has excess horizontal scroll when the menu is open */
   body {
     overflow-x: hidden; } }
-/*LINK COLOR*/
-#content a {
-  transition: .25s linear; }
-
-#content a:hover {
-  color: #199D72; }
-
 /*FOOTER*/
 #footer_accent {
   background-color: #676767;
@@ -490,8 +490,7 @@ main {
   margin: 0;
   color: white; }
 
-/*FOOTER SOCIAL ICONS*/
-/*WIDE SCREEN*/
+/*FOOTER SOCIAL ICONS:WIDE SCREEN*/
 @media only screen and (min-width: 1001px) {
   #connectSocial {
     height: 70%;
@@ -499,7 +498,7 @@ main {
 
   #connectSocial img {
     height: 60%; } }
-/*NARROW SCREEN*/
+/*FOOTER SOCIAL ICONS:NARROW SCREEN*/
 @media only screen and (max-width: 1000px) {
   #connectSocial {
     height: 60%;
@@ -540,26 +539,6 @@ main {
   opacity: 1;
   transition: visibility 0s .25s, opacity .25s linear; }
 
-/*bduke site*/
-#bduke {
-  position: absolute;
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: .5em;
-  padding-right: .5em;
-  margin: 0;
-  bottom: 0;
-  right: 0; }
-
-#bduke a {
-  font-size: 1em;
-  text-decoration: none;
-  transition: .25s linear;
-  color: white; }
-
-#bduke a:hover {
-  color: #199D72; }
-
 /*FOOTER> KEEP AT BOTTOM*/
 html,
 body {
@@ -583,7 +562,27 @@ body {
   bottom: 0;
   left: 0; }
 
-/**********END GLOBAKL CSS**********/
+/*bduke site*/
+#bduke {
+  position: absolute;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: .5em;
+  padding-right: .5em;
+  margin: 0;
+  bottom: 0;
+  right: 0; }
+
+#bduke a {
+  font-size: 1em;
+  text-decoration: none;
+  transition: .25s linear;
+  color: white; }
+
+#bduke a:hover {
+  color: #199D72; }
+
+/**********END GLOBAL CSS**********/
 /**********BEGIN HOME PAGE**********/
 /*SEPERATE SLIDESHOW FROM CONTENT*/
 .seperator {
