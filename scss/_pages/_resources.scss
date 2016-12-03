@@ -80,8 +80,8 @@
     max-height: 0px;
 }
 
-.resourcesAccordion input:checked~ .article.ac-small,
-.pageJumpAccordion input:checked~ .article.ac-small {
+.resourcesAccordion input:checked~.article.ac-small,
+.pageJumpAccordion input:checked~.article.ac-small {
     max-height: 30em;
 }
 
@@ -99,16 +99,16 @@
     transition: .2s linear;
 }
 
-.resourcesAccordion input:checked~ label #resourceJump tr td #resourcesDown0,
-.pageJumpAccordion input:checked~ label #resourceJump tr td #resourcesDown1 {
+.resourcesAccordion input:checked~label #resourceJump tr td #resourcesDown0,
+.pageJumpAccordion input:checked~label #resourceJump tr td #resourcesDown1 {
     transform: rotate(180deg);
 }
 
 
 /*DROP DOWN ACTION*/
 
-.resourcesAccordion input:checked~ .article,
-.pageJumpAccordion input:checked~ .article {
+.resourcesAccordion input:checked~.article,
+.pageJumpAccordion input:checked~.article {
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
@@ -127,10 +127,6 @@
 
 
 /*TEXT*/
-
-.resourcePages ul {
-    font-size: 1.5em;
-}
 
 .resourcesNav tr td h3 a {
     text-decoration: none;
