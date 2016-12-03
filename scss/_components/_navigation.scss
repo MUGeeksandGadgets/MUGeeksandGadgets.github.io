@@ -1,96 +1,6 @@
-/**********BEGIN GLOBAKL CSS**********/
-
-
-/*FONT IMPORT*/
-
-@font-face {
-    font-family: Ubuntu-Regular;
-    src: url(Ubuntu-Regular.ttf);
-}
-
-
-/*CSS RESET*/
-
-html,
-body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-
-
-/*FONT*/
-
-* {
-    font-family: 'Ubuntu-Regular';
-    color: #2F2F2F;
-}
-
-
-/*TEXT*/
-
-main h1 {
-    font-size: 2em;
-}
-
-main h2 {
-    font-size: 1.8em;
-}
-
-main h3 {
-    font-size: 1.7em;
-}
-
-main h4 {
-    font-size: 1.6em;
-}
-
-main p {
-    font-size: 1.5em;
-}
-
-
-/*LINK COLOR*/
-
-#content a {
-    transition: .25s linear;
-}
-
-#content a:hover {
-    color: #199D72;
-}
-
-
-/*WIDE SCREEN*/
+/*NAV:WIDE SCREEN*/
 
 @media only screen and (min-width: 1001px) {
-    main {
-        width: 70%;
-    }
-}
-
-
-/*NARROW SCREEN*/
-
-@media only screen and (max-width: 1000px) {
-    main {
-        width: 90%;
-    }
-}
-
-main {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-/*WIDE SCREEN*/
-
-@media only screen and (min-width: 1001px) {
-    /*NAV BAR*/
     #navContainer * {
         padding: 0;
         margin: 0;
@@ -99,7 +9,7 @@ main {
         position: relative;
         height: 12em;
         width: 100%;
-        background-color: #125D53;
+        background-color: $mainColor;
     }
     #nav {
         position: absolute;
@@ -116,7 +26,7 @@ main {
     #navAccent {
         position: absolute;
         bottom: 0;
-        background-color: #676767;
+        background-color: $mainAccent;
         width: 100%;
         height: 3.6em;
     }
@@ -137,13 +47,13 @@ main {
         transition: background-color .3s linear;
     }
     #nav ul li:hover {
-        background: #277369;
+        background: $mainColorShade;
     }
     #nav ul li a:hover {
-        color: #199D72;
+        color: $hoverColor;
     }
     #nav a.currentPage {
-        color: #199D72;
+        color: $hoverColor;
     }
     /*DROPDOWN SUBNAV*/
     #resourceDropdown {
@@ -153,7 +63,7 @@ main {
     #subNav1 {
         width: 7.55em;
         max-width: 10em;
-        background: #125D53;
+        background: $mainColor;
         float: left;
         left: 0;
         opacity: 0;
@@ -222,7 +132,7 @@ main {
     }
     /*PG TITLE*/
     #pgTitleD {
-        color: #C5C5C4;
+        color: $lighterFontColor;
         font-size: 2.2em;
         text-align: center;
         height: 1.4em;
@@ -256,13 +166,12 @@ main {
 }
 
 
-/*NARROW SCREEN*/
+/*NAV:NARROW SCREEN*/
 
 @media only screen and (max-width: 1000px) {
-    /*NAV BAR*/
     /* Navigation Menu - Background */
     #nav {
-        background-color: #125D53;
+        background-color: $mainColor;
         /* critical sizing and position styles */
         width: 15.5em;
         position: fixed;
@@ -292,7 +201,7 @@ main {
         overflow: hidden;
     }
     #nav ul li:hover {
-        background-color: #277369;
+        background-color: $mainColorShade;
     }
     #nav p {
         text-align: left;
@@ -312,10 +221,10 @@ main {
         transition: .3s linear;
     }
     #nav a:hover {
-        color: #199D72;
+        color: $hoverColor;
     }
     #nav a.currentPage {
-        color: #199D72;
+        color: $hoverColor;
     }
     /* Site Wrapper - Everything that isn't navigation */
     #wrapper {
@@ -335,7 +244,7 @@ main {
     #blueBlock {
         width: 100%;
         height: 7.5em;
-        background-color: #125D53;
+        background-color: $mainColor;
         box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
         position: fixed;
         z-index: 10;
@@ -346,7 +255,7 @@ main {
         top: 0;
         height: 5em;
         width: 100%;
-        background-color: #125D53;
+        background-color: $mainColor;
         z-index: 2;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     }
@@ -355,7 +264,7 @@ main {
         bottom: 0;
         height: 3em;
         width: 100%;
-        background-color: #676767;
+        background-color: $mainAccent;
     }
     .nav-trigger:checked~ #blueBlock {
         box-shadow: 0 0 7px 7px rgba(0, 0, 0, 0.4);
@@ -381,7 +290,7 @@ main {
         display: none;
     }
     #pgTitleM {
-        color: #C5C5C4;
+        color: $lighterFontColor;
         font-size: 2em;
         text-align: center;
         margin-top: .25em;
@@ -432,7 +341,6 @@ main {
         display: block;
         width: 1.5em;
         height: .2em;
-        background-color: #0D496D;
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
         -ms-transition: all 0.3s;
@@ -443,19 +351,19 @@ main {
     .clear-menu-btn .top {
         top: 35%;
         margin-left: .75em;
-        background-color: #5BBF9E;
+        background-color: $navHamAccent;
         z-index: 1;
     }
     .clear-menu-btn .middle {
         top: 50%;
         margin-left: .75em;
-        background-color: #5BBF9E;
+        background-color: $navHamAccent;
         z-index: 1;
     }
     .clear-menu-btn .bottom {
         top: 65%;
         margin-left: .75em;
-        background-color: #5BBF9E;
+        background-color: $navHamAccent;
         z-index: 1;
     }
     .clear-menu-btn .circle {
@@ -471,7 +379,7 @@ main {
         width: 2.5em;
         height: 2.5em;
         background-color: transparent;
-        border: .2em solid #199D72;
+        border: .2em solid $navHamMain;
         -webkit-transition: all 0.5s;
         -moz-transition: all 0.5s;
         -ms-transition: all 0.5s;
@@ -503,6 +411,7 @@ main {
     body {
         overflow-x: hidden;
     }
+<<<<<<< HEAD:css/CSS.css
 }
 
 
@@ -961,3 +870,6 @@ body {
 
 
 /**********END RESOURCES and SUB-PAGES**********/
+=======
+}
+>>>>>>> dev:scss/_components/_navigation.scss
