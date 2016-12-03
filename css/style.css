@@ -765,9 +765,6 @@ body {
   transition: all 0.3s ease-in-out; }
 
 /*TEXT*/
-.resourcePages ul {
-  font-size: 1.5em; }
-
 .resourcesNav tr td h3 a {
   text-decoration: none;
   margin: -8em;
