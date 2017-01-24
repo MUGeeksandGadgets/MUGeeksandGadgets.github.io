@@ -787,7 +787,8 @@ body {
   margin-left: 1em;
   margin-top: 1em;
   margin-bottom: 1em;
-  margin-right: 1em; }
+  margin-right: 1em;
+  transition: .25s ease-in-out; }
 
 /*WIDE SCREEN*/
 @media only screen and (min-width: 1001px) {
