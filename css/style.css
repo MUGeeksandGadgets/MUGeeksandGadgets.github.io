@@ -784,11 +784,19 @@ body {
 #mainLibrary .books img {
   display: inline;
   position: relative;
-  margin-left: 2em;
+  margin-left: 1em;
   margin-top: 1em;
   margin-bottom: 1em;
   margin-right: 1em; }
 
+/*WIDE SCREEN*/
+@media only screen and (min-width: 1001px) {
+  #mainLibrary .books img {
+    height: 18em; } }
+/*NARROW SCREEN*/
+@media only screen and (max-width: 1000px) {
+  #mainLibrary .books img {
+    height: 10em; } }
 #mainLibrary .books {
   width: 100%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -800,7 +808,6 @@ body {
   overflow-y: hidden;
   white-space: nowrap; }
 
-#mainLibrary .books:hover,
 #mainLibrary .books img:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
 
