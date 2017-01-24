@@ -1,3 +1,6 @@
 # Folder
 old.old/*
 .idea
+# Backup files for vim & nano
+*~
+.*.swp
