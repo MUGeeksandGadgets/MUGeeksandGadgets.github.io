@@ -1,5 +1,7 @@
 @import '_helpers/_variables';
+
 /**********BEGIN GLOBAKL CSS**********/
+
 @import '_base/_reset';
 @import '_base/_typography';
 @import '_layout/_screenSize';
@@ -7,11 +9,17 @@
 @import '_components/_navigation';
 @import '_components/_footer';
 @import '_vendors/_bduke';
+
 /**********END GLOBAL CSS**********/
+
 @import '_pages/_home';
 @import '_pages/_news';
 @import '_pages/_about';
 @import '_pages/_resources';
+@import '_pages/_library';
+
 /**********BEGIN CSS SLIDER**********/
+
 @import '_vendors/_cssSlider';
+
 /**********END CSS SLIDER**********/
