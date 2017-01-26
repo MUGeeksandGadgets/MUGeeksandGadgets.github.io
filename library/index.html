@@ -12,65 +12,66 @@
     <link rel='stylesheet' href='../css/style.css' /> </head>
 
 <body id="top">
-    <nav id="navContainer">
-        <div id="anotherNavContainer">
-            <a href="/"><img src="../contents/GG.svg" onerror="this.src='../contents/GG.png'; this.onerror=null;" /></a>
-            <div id="nav">
-                <ul>
-                    <li id="navHome" class="navMobileSpacer">
-                        <p>-</p>
-                    </li>
-                    <!--Spacer for mobile nav-->
-                    <li id="navHome">
-                        <p><a href="../">HOME</a></p>
-                    </li>
-                    <li>
-                        <p><a href="../news/">NEWS</a></p>
-                    </li>
-                    <li>
-                        <p><a class="currentPage" href="../about/">ABOUT</a></p>
-                    </li>
-                    <li id="resourceDropdown">
-                        <p><a href="../resources/">RESOURCES</a></p>
-                        <ul id="subNav1">
-                            <li>
-                                <p><a target="_blank" href="https://www.github.com/mugeeksandgadgets">GITHUB</a></p>
-                            </li>
-                            <li>
-                                <p><a href="../resources/software.html">SOFTWARE</a></p>
-                            </li>
-                            <li>
-                                <p><a href="../resources/programming.html">PROGRAMMING</a></p>
-                            </li>
-                            <li>
-                                <p><a href="../resources/reference.html">REFERENCE</a></p>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p><a href="../projects/">PROJECTS</a></p>
-                    </li>
-                    <li>
-                        <p><a href="../contact/">CONTACT</a></p>
-                    </li>
-                </ul>
-            </div>
+<nav id="navContainer">
+    <div id="anotherNavContainer">
+        <a href="/"><img src="../contents/GG.svg" onerror="this.src='../contents/GG.png'; this.onerror=null;" /></a>
+        <div id="nav">
+            <ul>
+                <li id="navHome" class="navMobileSpacer">
+                    <p>-</p>
+                </li>
+                <!--Spacer for mobile nav-->
+                <li id="navHome">
+                    <p><a href="../">HOME</a></p>
+                </li>
+                <li>
+                    <p><a class="currentPage" href="../library/">LIBRARY</a></p>
+                </li>
+                <li id="resourceDropdown">
+                    <p><a href="../resources/">RESOURCES</a></p>
+                    <ul id="subNav1">
+                        <li>
+                            <p><a target="_blank" href="https://www.github.com/mugeeksandgadgets">GITHUB</a></p>
+                        </li>
+                        <li>
+                            <p><a href="../resources/software.html">SOFTWARE</a></p>
+                        </li>
+                        <li>
+                            <p><a href="../resources/programming.html">PROGRAMMING</a></p>
+                        </li>
+                        <li>
+                            <p><a href="../resources/reference.html">REFERENCE</a></p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><a href="../projects/">PROJECTS</a></p>
+                </li>
+                <li>
+                    <p><a href="../about/">ABOUT</a></p>
+                </li>
+                <li>
+                    <p><a href="../contact/">CONTACT</a></p>
+                </li>
+            </ul>
         </div>
-        <div id="navAccent">
-            <h1 id="pgTitleD">#Library_</h1> </div>
-    </nav>
+    </div>
+    <div id="navAccent">
+        <h1 id="pgTitleD">#Library<span class="blinking-cursor">_</span></h1> </div>
+</nav>
     <input type="checkbox" id="nav-trigger" class="nav-trigger" />
     <div class="clear-menu-btn"> <span class="top"></span> <span class="middle"></span> <span class="bottom"></span> <span class="circle"></span> </div>
     <div id="blueBlock">
         <div id="blueBlockContent"></div>
         <div id="blueBlockAccent">
-            <h1 id="pgTitleM">#Library_</h1> </div>
+            <h1 id="pgTitleM">#Library<span class="blinking-cursor">_</span></h1> </div>
     </div>
     <div id="wrapper">
         <div id="moverBlock"></div>
         <div id="content">
             <div class="seperator"></div>
             <main id="mainLibrary">
+                <h1>THIS IS A PUBLIC BETA</h1>
                 <h1>Coming soon the G&G Library</h1>
                 <h3>CS</h3>
                 <div class="books">
@@ -85,8 +86,20 @@
                     <!--learn you a Haskell (the book is only distributed as HTML, so we link to its original site)-->
                     <a target="_blank" href="http://learnyouahaskell.com/"><img src="../contents/books/covers/learnyou.png" /></a>
                 </div>
-                <h3>Romance</h3>
-                <div></div>
+                <h3>Science Fiction</h3>
+                <div class="books">
+                    <!--Call of Cthulhu-->
+                    <a target="_blank" href="../contents/books/scifi/The%20Call%20of%20Cthulhu.epub"><img src="../contents/books/covers/chthulu.jpg"></a>
+                    <!--The Invisible Man-->
+                    <a target="_blank" href="../contents/books/scifi/The%20Invisible%20Man.epub"><img src="../contents/books/covers/The_invisble_man.jpe"></a>
+                    <!--The Invisible Man-->
+                    <a target="_blank" href="../contents/books/scifi/Tales%20of%20Space%20and%20Time.epub"><img src="../contents/books/covers/Tales_of_space_and_time.jpe"></a>
+                    <!--The Invisible Man-->
+                    <a target="_blank" href="../contents/books/scifi/War%20of%20the%20Worlds.pdf"><img src="../contents/books/covers/warOfTheWorlds.jpg"></a>
+                    <!-- 20000 Leagues Under The Sea -->
+                    <a target="_blank" href="../contents/books/scifi/20000 Leagues Under the Sea.epub"><img src="../contents/books/covers/20000LeaguesUnderTheSea.jpg"></a>
+
+                </div>
             </main>
         </div>
         <footer id="footer">
