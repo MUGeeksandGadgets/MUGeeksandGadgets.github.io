@@ -34,6 +34,47 @@ main h4 {
 main p {
   font-size: 1.5em; }
 
+/*BLINKING CURSOR*/
+.blinking-cursor {
+  font-weight: bold;
+  font-size: 30px;
+  color: #C5C5C4;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite; }
+
+@keyframes "blink" {
+  from,
+    to {
+    color: transparent; }
+  50% {
+    color: #C5C5C4; } }
+@-moz-keyframes blink {
+  from,
+    to {
+    color: transparent; }
+  50% {
+    color: #C5C5C4; } }
+@-webkit-keyframes "blink" {
+  from,
+    to {
+    color: transparent; }
+  50% {
+    color: #C5C5C4; } }
+@-ms-keyframes "blink" {
+  from,
+    to {
+    color: transparent; }
+  50% {
+    color: #C5C5C4; } }
+@-o-keyframes "blink" {
+  from,
+    to {
+    color: transparent; }
+  50% {
+    color: #C5C5C4; } }
 /*SCREEN SIZE:WIDE SCREEN*/
 @media only screen and (min-width: 1001px) {
   main {
@@ -813,46 +854,6 @@ body {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
 
 /**********END LIBRARY**********/
-.blinking-cursor {
-  font-weight: 100;
-  font-size: 30px;
-  color: #C5C5C4;
-  -webkit-animation: 1s blink step-end infinite;
-  -moz-animation: 1s blink step-end infinite;
-  -ms-animation: 1s blink step-end infinite;
-  -o-animation: 1s blink step-end infinite;
-  animation: 1s blink step-end infinite; }
-
-@keyframes "blink" {
-  from,
-    to {
-    color: transparent; }
-  50% {
-    color: #C5C5C4; } }
-@-moz-keyframes blink {
-  from,
-    to {
-    color: transparent; }
-  50% {
-    color: #C5C5C4; } }
-@-webkit-keyframes "blink" {
-  from,
-    to {
-    color: transparent; }
-  50% {
-    color: #C5C5C4; } }
-@-ms-keyframes "blink" {
-  from,
-    to {
-    color: transparent; }
-  50% {
-    color: #C5C5C4; } }
-@-o-keyframes "blink" {
-  from,
-    to {
-    color: transparent; }
-  50% {
-    color: #C5C5C4; } }
 /**********BEGIN CSS SLIDER**********/
 /*CSS RESET*/
 html,
