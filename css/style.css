@@ -31,7 +31,8 @@ main h3 {
 main h4 {
   font-size: 1.6em; }
 
-main p {
+main p,
+main ul > li {
   font-size: 1.5em; }
 
 /*BLINKING CURSOR*/
@@ -662,14 +663,6 @@ body {
   margin: 2em auto 2em auto; }
 
 /**********END HOME PAGE**********/
-/**********BEGIN NEWS**********/
-/*TEXT*/
-#mainNews h2,
-#mainNews h3,
-#mainNews p {
-  text-align: center; }
-
-/**********END NEWS**********/
 /**********BEGIN ABOUT**********/
 /*TABLE*/
 #mainAbout table {
