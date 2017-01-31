@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+#!/usr/bin/env python
+import os, re
+from collections import namedtuple
+
+header = """<!DOCTYPE html>
 <!--
   DO NOT MODIFY THIS FILE BY HAND!
 
@@ -81,7 +85,8 @@
             <div class="seperator"></div>
             <main id="mainLibrary">
                 <h1>THIS IS A PUBLIC BETA</h1>
-                <h1>Coming soon the G&G Library</h1><h3>Science Fiction</h3><div class="books"><a target="_blank" href="../contents/books/Science Fiction/The Call of Cthulhu.epub"><img src="../contents/books/covers/The Call of Cthulhu.jpg" /></a><a target="_blank" href="../contents/books/Science Fiction/20000 Leagues Under the Sea.epub"><img src="../contents/books/covers/20000 Leagues Under the Sea.jpg" /></a><a target="_blank" href="../contents/books/Science Fiction/The Invisible Man.epub"><img src="../contents/books/covers/The Invisible Man.jpg" /></a><a target="_blank" href="../contents/books/Science Fiction/War of the Worlds.pdf"><img src="../contents/books/covers/War of the Worlds.jpg" /></a><a target="_blank" href="../contents/books/Science Fiction/Tales of Space and Time.epub"><img src="../contents/books/covers/Tales of Space and Time.jpg" /></a></div><h3>Computer Science</h3><div class="books"><a target="_blank" href="../contents/books/Computer Science/thinkapjava.pdf"><img src="../contents/books/covers/thinkapjava.jpg" /></a><a target="_blank" href="../contents/books/Computer Science/thinkdsp.pdf"><img src="../contents/books/covers/thinkdsp.jpg" /></a><a target="_blank" href="../contents/books/Computer Science/thinkstats.pdf"><img src="../contents/books/covers/thinkstats.jpg" /></a><a target="_blank" href="../contents/books/Computer Science/thinkpython.pdf"><img src="../contents/books/covers/thinkpython.jpg" /></a></div>            </main>
+                <h1>Coming soon the G&G Library</h1>"""
+footer = """            </main>
         </div>
         <footer id="footer">
             <div id="footer_accent">
@@ -102,4 +107,32 @@
     </div>
 </body>
 
-</html>
+</html>"""
+
+folders = os.listdir(os.path.join('contents', 'books'))
+
+genres = folders.copy()
+genres.remove('covers')
+
+with open(os.path.join('library', 'index.html'), 'w') as out:
+
+    out.write(header)
+
+    for genre in genres:
+        out.write('<h3>%s</h3>' % genre)
+        out.write('<div class="books">')
+
+        books = os.listdir(os.path.join('contents', 'books', genre))
+
+        for book in books:
+            out.write('<a target="_blank" href="../contents/books/%s/%s">'
+                  % (genre, book))
+            covername = re.sub('\.[^\.]*$', '.jpg', book)
+            out.write('<img src="../contents/books/covers/%s" />' % covername)
+            out.write('</a>')
+
+        out.write('</div>')
+
+    out.write(footer)
+
+print('=> Page written to ./library/index.html')
