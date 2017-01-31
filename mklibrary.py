@@ -113,6 +113,7 @@ folders = os.listdir(os.path.join('contents', 'books'))
 
 genres = folders.copy()
 genres.remove('covers')
+genres = reversed(genres)
 
 with open(os.path.join('library', 'index.html'), 'w') as out:
 
