@@ -687,6 +687,17 @@ body {
 #mainAbout p {
   text-align: center; }
 
+#mainAbout .officerTitle {
+  color: #199D72; }
+
+#mainAbout .officerPic {
+  vertical-align: middle;
+  float: left;
+  padding-right: 1em; }
+
+#mainAbout .officerDesc {
+  clear: right; }
+
 /*IMAGES:WIDE SCREEN*/
 @media only screen and (min-width: 1001px) {
   #mainAbout img {
@@ -830,8 +841,6 @@ body {
     height: 10em; } }
 #mainLibrary .books {
   width: 100%;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  transition: all 0.2s ease-in-out;
   background-color: #D6D6D6;
   margin: 1em auto;
   border-radius: .5em;
