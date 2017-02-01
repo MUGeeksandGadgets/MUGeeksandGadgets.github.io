@@ -1,13 +1,20 @@
 /**********BEGIN ABOUT**********/
 
 
-/*TABLE*/
+/*OFFICER CONTAINER*/
 
 #mainAbout .officer {
     width: 100%;
     margin-bottom: 1em;
     display: flex;
     align-items: center;
+}
+
+
+/*OFFICER NAME COLOR*/
+
+#mainAbout .officerTitle {
+    color: $hoverColor;
 }
 
 
@@ -21,18 +28,16 @@
     text-align: center;
 }
 
-#mainAbout .officerTitle {
-    color: $hoverColor;
-}
-
 
 /*IMAGES:WIDE SCREEN*/
 
 @media only screen and (min-width: 1001px) {
+    /*SPACE OUT THE VALUES*/
     #mainAbout .values {
         margin-left: 1em;
         margin-right: 1em;
     }
+    /*ALIGN STUFF ABOUT OFFICERS*/
     #mainAbout .officerPic {
         width: 30%;
         padding-right: 2%;
@@ -42,6 +47,7 @@
         float: right;
         width: 68%;
     }
+    /*DON'T SHOW MOBILE NAME*/
     #mainAbout .officerTitleM {
         display: none;
     }
@@ -51,9 +57,11 @@
 /*IMAGES:NARROW SCREEN*/
 
 @media only screen and (max-width: 1000px) {
+    /*VALUES MOBILE*/
     #mainAbout .values {
         display: block;
     }
+    /*HOW TO DISPLAY STUFF ABOUT OFFICERS*/
     #mainAbout .officer {
         flex-direction: column;
     }
@@ -68,6 +76,7 @@
         order: 3;
         width: 100%;
     }
+    /*DON'T SHOW DESKTOP TITLE*/
     #mainAbout .officerTitleD {
         display: none;
     }
