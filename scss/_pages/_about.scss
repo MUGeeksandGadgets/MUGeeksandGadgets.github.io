@@ -3,24 +3,11 @@
 
 /*TABLE*/
 
-#mainAbout table {
+#mainAbout .officer {
     width: 100%;
-}
-
-
-/*TABLE:NARROW SCREEN*/
-
-@media only screen and (max-width: 1000px) {
-    #mainAbout table,
-    #mainAbout thead,
-    #mainAbout tbody,
-    #mainAbout th,
-    #mainAbout tr,
-    #mainAbout td {
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -39,31 +26,28 @@
 }
 
 #mainAbout .officerPic {
-    vertical-align: middle;
-    float: left;
-    padding-right: 1em;
+    width: 30%;
+    padding-right: 2%;
+    display: inline;
 }
 
 #mainAbout .officerDesc {
-    clear: right;
+    float: right;
+    width: 68%;
 }
 
 
 /*IMAGES:WIDE SCREEN*/
 
 @media only screen and (min-width: 1001px) {
-    #mainAbout img {
-        width: 20vw;
-    }
+    #mainAbout img {}
 }
 
 
 /*IMAGES:NARROW SCREEN*/
 
 @media only screen and (max-width: 1000px) {
-    #mainAbout img {
-        width: 40vw;
-    }
+    #mainAbout img {}
 }
 
 
