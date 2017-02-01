@@ -682,17 +682,37 @@ body {
 #mainAbout .officerTitle {
   color: #199D72; }
 
-#mainAbout .officerPic {
-  width: 30%;
-  padding-right: 2%;
-  display: inline; }
-
-#mainAbout .officerDesc {
-  float: right;
-  width: 68%; }
-
 /*IMAGES:WIDE SCREEN*/
+@media only screen and (min-width: 1001px) {
+  #mainAbout .officerPic {
+    width: 30%;
+    padding-right: 2%;
+    display: inline; }
+
+  #mainAbout .officerDesc {
+    float: right;
+    width: 68%; }
+
+  #mainAbout .officerTitleM {
+    display: none; } }
 /*IMAGES:NARROW SCREEN*/
+@media only screen and (max-width: 1000px) {
+  #mainAbout .officer {
+    flex-direction: column; }
+
+  #mainAbout .officerTitleM {
+    order: 1; }
+
+  #mainAbout .officerPic {
+    order: 2;
+    width: 70%; }
+
+  #mainAbout .officerDesc {
+    order: 3;
+    width: 100%; }
+
+  #mainAbout .officerTitleD {
+    display: none; } }
 /**********END ABOUT**********/
 /**********BEGIN RESOURCES and SUB-PAGES**********/
 /*TABLE*/
