@@ -7,63 +7,98 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://mugeeksandgadgets.github.io/</loc>
-  <lastmod>2016-10-19T05:06:14+00:00</lastmod>
+  <loc>http://mugeeks.org/</loc>
+  <lastmod>2017-02-08T02:14:12+00:00</lastmod>
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://mugeeksandgadgets.github.io/news/</loc>
-  <lastmod>2016-10-19T05:06:14+00:00</lastmod>
+  <loc>http://mugeeks.org/library/</loc>
+  <lastmod>2017-02-08T02:14:12+00:00</lastmod>
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://mugeeksandgadgets.github.io/about/</loc>
-  <lastmod>2016-10-19T05:06:14+00:00</lastmod>
+  <loc>http://mugeeks.org/resources/</loc>
+  <lastmod>2017-02-08T02:14:12+00:00</lastmod>
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://mugeeksandgadgets.github.io/resources/</loc>
-  <lastmod>2016-10-19T05:06:14+00:00</lastmod>
+  <loc>http://mugeeks.org/resources/software.html</loc>
+  <lastmod>2017-02-08T02:14:12+00:00</lastmod>
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://mugeeksandgadgets.github.io/resources/software.html</loc>
-  <lastmod>2016-10-19T05:06:14+00:00</lastmod>
+  <loc>http://mugeeks.org/resources/programming.html</loc>
+  <lastmod>2017-02-08T02:14:12+00:00</lastmod>
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://mugeeksandgadgets.github.io/resources/programming.html</loc>
-  <lastmod>2016-10-19T05:06:14+00:00</lastmod>
+  <loc>http://mugeeks.org/resources/reference.html</loc>
+  <lastmod>2017-02-08T02:14:12+00:00</lastmod>
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://mugeeksandgadgets.github.io/resources/reference.html</loc>
-  <lastmod>2016-10-19T05:06:14+00:00</lastmod>
+  <loc>http://mugeeks.org/projects/</loc>
+  <lastmod>2017-02-08T02:14:12+00:00</lastmod>
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://mugeeksandgadgets.github.io/projects/</loc>
-  <lastmod>2016-10-19T05:06:14+00:00</lastmod>
+  <loc>http://mugeeks.org/about/</loc>
+  <lastmod>2017-02-08T02:14:12+00:00</lastmod>
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://mugeeksandgadgets.github.io/contact/</loc>
-  <lastmod>2016-10-19T05:06:14+00:00</lastmod>
+  <loc>http://mugeeks.org/contact/</loc>
+  <lastmod>2017-02-08T02:14:12+00:00</lastmod>
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://mugeeksandgadgets.github.io/contents/socialIcons/Application.pdf</loc>
-  <lastmod>2016-10-19T05:06:14+00:00</lastmod>
+  <loc>http://mugeeks.org/contents/socialIcons/Application.pdf</loc>
+  <lastmod>2017-02-08T02:14:12+00:00</lastmod>
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://mugeeksandgadgets.github.io/contents/resources/Programming/Python.PDF</loc>
-  <lastmod>2016-10-19T05:06:14+00:00</lastmod>
+  <loc>http://mugeeks.org/contents/books/CS/learnyouahaskell.pdf</loc>
+  <lastmod>2017-02-08T02:14:12+00:00</lastmod>
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://mugeeksandgadgets.github.io/contents/contact/Application.pdf</loc>
-  <lastmod>2016-10-19T05:06:14+00:00</lastmod>
+  <loc>http://mugeeks.org/contents/books/CS/thinkapjava.pdf</loc>
+  <lastmod>2017-02-08T02:14:12+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://mugeeks.org/contents/books/CS/poignant-guide.pdf</loc>
+  <lastmod>2017-02-08T02:14:12+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://mugeeks.org/contents/books/CS/thinkdsp.pdf</loc>
+  <lastmod>2017-02-08T02:14:12+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://mugeeks.org/contents/books/CS/thinkstats.pdf</loc>
+  <lastmod>2017-02-08T02:14:12+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://mugeeks.org/contents/books/CS/thinkpython.pdf</loc>
+  <lastmod>2017-02-08T02:14:12+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://mugeeks.org/contents/books/Science%20Fiction/War%20of%20the%20Worlds.pdf</loc>
+  <lastmod>2017-02-08T02:14:12+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://mugeeks.org/contents/resources/Programming/Python.PDF</loc>
+  <lastmod>2017-02-08T02:14:12+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://mugeeks.org/contents/contact/Application.pdf</loc>
+  <lastmod>2017-02-08T02:14:12+00:00</lastmod>
   <changefreq>monthly</changefreq>
 </url>
 </urlset>
