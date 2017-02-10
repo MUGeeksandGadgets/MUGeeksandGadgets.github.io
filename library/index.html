@@ -21,6 +21,9 @@
     <link rel='stylesheet' href='../css/style.css' /> </head>
 
 <body id="top">
+
+    <input type="checkbox" id="libraryBooks" class="showOverlay" />
+
     <nav id="navContainer">
         <div id="anotherNavContainer">
             <a href="/"><img src="../contents/GG.svg" onerror="this.src='../contents/GG.png'; this.onerror=null;" /></a>
@@ -68,8 +71,9 @@
         <div id="navAccent">
             <h1 id="pgTitleD">#Library<span class="blinking-cursor">_</span></h1> </div>
     </nav>
+
     <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-    <div class="clear-menu-btn"> <span class="top"></span> <span class="middle"></span> <span class="bottom"></span> <span class="circle"></span> </div>
+    <div id="menu" class="clear-menu-btn"> <span class="top"></span> <span class="middle"></span> <span class="bottom"></span> <span class="circle"></span> </div>
     <div id="blueBlock">
         <div id="blueBlockContent"></div>
         <div id="blueBlockAccent">
@@ -85,13 +89,14 @@
 
 
                 <div class="cover">
-                    <a class="button" href="#CS"><img src="../contents/books/covers/learnyouahaskell.jpg"></a>
+                    <label for="libraryBooks" class="bookLabel"><img src="../contents/books/covers/learnyouahaskell.jpg"></label>
+                    <!--<a class="button" href="#CS"><img src="../contents/books/covers/learnyouahaskell.jpg"></a>-->
                 </div>
 
                 <div id="CS" class="overlay">
                     <div class="popup">
                         <h2>Computer Science</h2>
-                        <a class="close" href="#">&times;</a>
+                        <label for="libraryBooks" class="close bookLabel">&times;</label>
                         <div class="books">
                             <a target="_blank" href="../contents/books/CS/thinkapjava.pdf"><img src="../contents/books/covers/thinkapjava.jpg" /></a>
                             <a target="_blank" href="../contents/books/CS/thinkdsp.pdf"><img src="../contents/books/covers/thinkdsp.jpg" /></a>
