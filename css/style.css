@@ -840,7 +840,7 @@ body {
 .bookRadio {
   display: none; }
 
-#mainLibrary h1 {
+#mainLibrary h1, #mainLibrary h3 {
   text-align: center; }
 
 #coversContainer {
