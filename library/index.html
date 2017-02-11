@@ -22,7 +22,10 @@
 
 <body id="top">
 
-    <input type="checkbox" id="libraryBooks" class="showOverlay" />
+    <input type="radio" name="overlay" id="none" class="bookRadio">
+    <input type="radio" name="overlay" id="CSRsadio" class="bookRadio">
+    <input type="radio" name="overlay" id="ScienceFictionRadio" class="bookRadio">
+    <input type="radio" name="overlay" id="ClassicsRadio" class="bookRadio">
 
     <nav id="navContainer">
         <div id="anotherNavContainer">
@@ -87,44 +90,58 @@
                 <h1>THIS IS A PUBLIC BETA</h1>
                 <h1>Coming soon the G&G Library</h1>
 
+                <div id="coversContainer">
+                    <div class="cover">
+                        <label for="CSRsadio" class="bookLabel"><img src="../contents/library/CS/ComputerScience.jpg"></label>
+                    </div>
 
-                <div class="cover">
-                    <label for="libraryBooks" class="bookLabel"><img src="../contents/books/covers/learnyouahaskell.jpg"></label>
-                    <!--<a class="button" href="#CS"><img src="../contents/books/covers/learnyouahaskell.jpg"></a>-->
-                </div>
+                    <div id="CS" class="overlay">
+                        <div class="popup">
+                            <h2>Computer Science</h2>
+                            <label for="none" class="close bookLabel">&times;</label>
+                            <div class="books">
+                                <a target="_blank" href="../contents/library/CS/thinkJava/thinkapjava.pdf"><img src="../contents/library/CS/thinkJava/thinkapjava.jpg" /></a>
+                                <a target="_blank" href="../contents/library/CS/thinkDSP/thinkdsp.pdf"><img src="../contents/library/CS/thinkDSP/thinkdsp.jpg" /></a>
+                                <a target="_blank" href="../contents/library/CS/thinkStats/thinkstats.pdf"><img src="../contents/library/CS/thinkStats/thinkstats.jpg" /></a>
+                                <a target="_blank" href="../contents/library/CS/poignantGuideToRuby/poignant-guide.pdf"><img src="../contents/library/CS/poignantGuideToRuby/poignant-guide.jpg" /></a>
+                                <a target="_blank" href="../contents/library/CS/learnYouAHaskell/learnyouahaskell.pdf"><img src="../contents/library/CS/learnYouAHaskell/learnyouahaskell.jpg" /></a>
+                                <a target="_blank" href="../contents/library/CS/thinkPython/thinkpython.pdf"><img src="../contents/library/CS/thinkPython/thinkpython.jpg" /></a>
+                            </div>
+                        </div>
+                    </div>
 
-                <div id="CS" class="overlay">
-                    <div class="popup">
-                        <h2>Computer Science</h2>
-                        <label for="libraryBooks" class="close bookLabel">&times;</label>
-                        <div class="books">
-                            <a target="_blank" href="../contents/books/CS/thinkapjava.pdf"><img src="../contents/books/covers/thinkapjava.jpg" /></a>
-                            <a target="_blank" href="../contents/books/CS/thinkdsp.pdf"><img src="../contents/books/covers/thinkdsp.jpg" /></a>
-                            <a target="_blank" href="../contents/books/CS/thinkstats.pdf"><img src="../contents/books/covers/thinkstats.jpg" /></a>
-                            <a target="_blank" href="../contents/books/CS/poignant-guide.pdf"><img src="../contents/books/covers/poignant-guide.jpg" /></a>
-                            <a target="_blank" href="../contents/books/CS/learnyouahaskell.pdf"><img src="../contents/books/covers/learnyouahaskell.jpg" /></a>
-                            <a target="_blank" href="../contents/books/CS/thinkpython.pdf"><img src="../contents/books/covers/thinkpython.jpg" /></a>
+                    <div class="cover">
+                        <label for="ScienceFictionRadio" class="bookLabel"><img src="../contents/library/scienceFiction/ScienceFiction.jpg"></label>
+                    </div>
+
+                    <div id="ScienceFiction" class="overlay">
+                        <div class="popup">
+                            <h2>Science Fiction</h2>
+                            <label for="none" class="close bookLabel">&times;</label>
+                            <div class="books">
+                                <a target="_blank" href="../contents/library/scienceFiction/theInvisibleMan/theInvisibleMan.epub"><img src="../contents/library/scienceFiction/theInvisibleMan/theInvisibleMan.jpg" /></a>
+                                <a target="_blank" href="../contents/library/scienceFiction/talesOfSpaceAndTime/talesOfSpaceAndTime.epub"><img src="../contents/library/scienceFiction/talesOfSpaceAndTime/talesOfSpaceAndTime.jpg" /></a>
+                                <a target="_blank" href="../contents/library/scienceFiction/warOfTheWorlds/warOfTheWorlds.pdf"><img src="../contents/library/scienceFiction/warOfTheWorlds/warOfTheWorlds.jpg" /></a>
+                                <a target="_blank" href="../contents/library/scienceFiction/theCallOfCthulhu/theCallOfCthulhu.epub"><img src="../contents/library/scienceFiction/theCallOfCthulhu/theCallOfCthulhu.jpg" /></a>
+                                <a target="_blank" href="../contents/library/scienceFiction/20000LeaguesUnderTheSea/20000LeaguesUnderTheSea.epub"><img src="../contents/library/scienceFiction/20000LeaguesUnderTheSea/20000LeaguesUnderTheSea.jpg"s /></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cover">
+                        <label for="ClassicsRadio" class="bookLabel"><img src="../contents/library/classics/Classics.jpg"></label>
+                    </div>
+
+                    <div id="Classics" class="overlay">
+                        <div class="popup">
+                            <h2>Classics</h2>
+                            <label for="none" class="close bookLabel">&times;</label>
+                            <div class="books">
+                                <a target="_blank" href="../contents/library/classics/theIliad/theIliad.epub"><img src="../contents/library/classics/theIliad/theIliad.jpg" /></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <!--<h3>CS</h3>
-                <div class="books">
-                    <a target="_blank" href="../contents/books/CS/thinkapjava.pdf"><img src="../contents/books/covers/thinkapjava.jpg" /></a>
-                    <a target="_blank" href="../contents/books/CS/thinkdsp.pdf"><img src="../contents/books/covers/thinkdsp.jpg" /></a>
-                    <a target="_blank" href="../contents/books/CS/thinkstats.pdf"><img src="../contents/books/covers/thinkstats.jpg" /></a>
-                    <a target="_blank" href="../contents/books/CS/poignant-guide.pdf"><img src="../contents/books/covers/poignant-guide.jpg" /></a>
-                    <a target="_blank" href="../contents/books/CS/learnyouahaskell.pdf"><img src="../contents/books/covers/learnyouahaskell.jpg" /></a>
-                    <a target="_blank" href="../contents/books/CS/thinkpython.pdf"><img src="../contents/books/covers/thinkpython.jpg" /></a>
-                </div>
-                <h3>Science Fiction</h3>
-                <div class="books">
-                    <a target="_blank" href="../contents/books/Science Fiction/The Invisible Man.epub"><img src="../contents/books/covers/The Invisible Man.jpg" /></a>
-                    <a target="_blank" href="../contents/books/Science Fiction/Tales of Space and Time.epub"><img src="../contents/books/covers/Tales of Space and Time.jpg" /></a>
-                    <a target="_blank" href="../contents/books/Science Fiction/War of the Worlds.pdf"><img src="../contents/books/covers/War of the Worlds.jpg" /></a>
-                    <a target="_blank" href="../contents/books/Science Fiction/The Call of Cthulhu.epub"><img src="../contents/books/covers/The Call of Cthulhu.jpg" /></a>
-                    <a target="_blank" href="../contents/books/Science Fiction/20000 Leagues Under the Sea.epub"><img src="../contents/books/covers/20000 Leagues Under the Sea.jpg" /></a>
-                </div>-->
             </main>
         </div>
         <footer id="footer">

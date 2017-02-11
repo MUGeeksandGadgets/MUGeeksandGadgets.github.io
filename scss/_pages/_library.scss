@@ -1,17 +1,42 @@
 /**********BEGIN LIBRARY**********/
 
+.bookRadio {
+    display: none;
+}
+
 #mainLibrary h1 {
     text-align: center;
 }
 
-#mainLibrary .books img {
+#coversContainer {
+    //display: flex;
+    justify-content: center;
+}
+
+#mainLibrary .cover {
     display: inline-block;
-    //position: relative;
+    text-align: center;
+}
+
+#mainLibrary .books img {
     margin-left: 1em;
     margin-top: 1em;
     margin-bottom: 1em;
     margin-right: 1em;
-    transition: .25s ease-in-out;
+    text-align: center;
+}
+
+#mainLibrary .cover img {
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    height: 18em;
+}
+
+#mainLibrary .books {
+    //sdisplay: flex;
+    justify-content: center;
 }
 
 
@@ -58,17 +83,15 @@
     opacity: 0;
 }
 
-.showOverlay {
-    display: none;
-}
-
-.showOverlay:checked ~ #wrapper> #content> #mainLibrary> .overlay {
+#CSRsadio:checked ~ #wrapper> #content> #mainLibrary> #coversContainer> #CS,
+#ScienceFictionRadio:checked ~ #wrapper> #content> #mainLibrary> #coversContainer> #ScienceFiction,
+#ClassicsRadio:checked ~ #wrapper> #content> #mainLibrary> #coversContainer> #Classics {
     visibility: visible;
     opacity: 1;
-    z-index: 800;
+    z-index: 16;
 }
 
-.showOverlay:not(:checked) ~ #wrapper> #content> #mainLibrary> .overlay> .popup> .books a {
+#none:checked ~ #wrapper> #content> #mainLibrary> #coversContainer> .overlay> .popup> .books a {
     pointer-events: none;
     cursor: default;
 }
