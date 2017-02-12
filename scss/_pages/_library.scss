@@ -77,6 +77,10 @@
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
+    //
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #CSRsadio:checked ~ #wrapper> #content> #mainLibrary> #coversContainer> #CS,
@@ -97,11 +101,11 @@
 }
 
 .popup {
-    left: 10%;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    //left: 10%;
+    //top: 50%;
+    //-webkit-transform: translateY(-50%);
+    //-ms-transform: translateY(-50%);
+    //transform: translateY(-50%);
     background: #fff;
     border-radius: 5px;
     width: 80%;
