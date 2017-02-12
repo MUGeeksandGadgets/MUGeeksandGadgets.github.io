@@ -840,7 +840,8 @@ body {
 .bookRadio {
   display: none; }
 
-#mainLibrary h1, #mainLibrary h3 {
+#mainLibrary h1,
+#mainLibrary h3 {
   text-align: center; }
 
 #coversContainer {
@@ -911,6 +912,8 @@ body {
 .popup {
   left: 10%;
   top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   background: #fff;
   border-radius: 5px;
