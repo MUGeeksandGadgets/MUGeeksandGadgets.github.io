@@ -927,10 +927,8 @@ body {
 
 .popup .close {
   position: absolute;
-  top: 20px;
-  right: 30px;
   transition: all 200ms;
-  font-size: 30px;
+  font-size: 2em;
   font-weight: bold;
   text-decoration: none;
   color: #2F2F2F; }
@@ -941,12 +939,20 @@ body {
 .popup .books {
   max-height: 80vh; }
 
+@media only screen and (min-width: 1001px) {
+  .popup .close {
+    top: 20px;
+    right: 30px; } }
 @media screen and (max-width: 1000px) {
   .cover {
     width: 80%; }
 
   .popup {
     width: 80%; }
+
+  .popup .close {
+    top: 40px;
+    right: 30px; }
 
   .noNAV:checked ~ #blueBlock,
   .noNAV:checked ~ #menu,

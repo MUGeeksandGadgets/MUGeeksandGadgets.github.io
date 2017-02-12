@@ -77,7 +77,6 @@
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
-    //
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,11 +100,6 @@
 }
 
 .popup {
-    //left: 10%;
-    //top: 50%;
-    //-webkit-transform: translateY(-50%);
-    //-ms-transform: translateY(-50%);
-    //transform: translateY(-50%);
     background: #fff;
     border-radius: 5px;
     width: 80%;
@@ -122,10 +116,8 @@
 
 .popup .close {
     position: absolute;
-    top: 20px;
-    right: 30px;
     transition: all 200ms;
-    font-size: 30px;
+    font-size: 2em;
     font-weight: bold;
     text-decoration: none;
     color: $fontColor;
@@ -140,7 +132,12 @@
 }
 
 //wide
-@media only screen and (min-width: 1001px) {}
+@media only screen and (min-width: 1001px) {
+    .popup .close {
+        top: 20px;
+        right: 30px;
+    }
+}
 
 //narrow
 @media screen and (max-width: 1000px) {
@@ -149,6 +146,10 @@
     }
     .popup {
         width: 80%; //make 80
+    }
+    .popup .close {
+        top: 40px;
+        right: 30px;
     }
     .noNAV:checked ~ #blueBlock,
     .noNAV:checked ~ #menu,
