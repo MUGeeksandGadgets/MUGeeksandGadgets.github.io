@@ -855,7 +855,8 @@ body {
   margin-top: 1em;
   margin-bottom: 1em;
   margin-right: 1em;
-  display: inline; }
+  display: inline;
+  border: 1px solid black; }
 
 #mainLibrary .cover img {
   margin-left: 1em;
