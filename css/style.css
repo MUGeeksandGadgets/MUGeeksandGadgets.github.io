@@ -256,7 +256,7 @@ main {
   .clear-menu-btn {
     display: none; }
 
-  #navHome {
+  .navHome {
     display: none; } }
 /*NAV:NARROW SCREEN*/
 @media only screen and (max-width: 1000px) {
@@ -360,7 +360,7 @@ main {
   .nav-trigger:checked ~ #blueBlock {
     box-shadow: 0 0 7px 7px rgba(0, 0, 0, 0.4); }
 
-  .navMobileSpacer {
+  #navMobileSpacer {
     height: 7.5em;
     width: 100%; }
 
