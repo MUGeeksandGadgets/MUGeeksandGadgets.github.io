@@ -84,9 +84,9 @@
     justify-content: center;
 }
 
-#CSRsadio:checked ~ #wrapper> #content> #mainLibrary> #coversContainer> #CS,
-#ScienceFictionRadio:checked ~ #wrapper> #content> #mainLibrary> #coversContainer> #ScienceFiction,
-#ClassicsRadio:checked ~ #wrapper> #content> #mainLibrary> #coversContainer> #Classics {
+#CSRadio:checked ~ #wrapper> #content> #mainLibrary> #coversContainer> #CS,
+#scienceFictionRadio:checked ~ #wrapper> #content> #mainLibrary> #coversContainer> #scienceFiction,
+#classicsRadio:checked ~ #wrapper> #content> #mainLibrary> #coversContainer> #classics {
     visibility: visible;
     opacity: 1;
     z-index: 16;

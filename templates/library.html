@@ -15,10 +15,7 @@
 <body id="top">
 
     <input type="radio" name="overlay" id="none" class="bookRadio">
-    <input type="radio" name="overlay" id="CSRadio" class="bookRadio noNAV" />
-<input type="radio" name="overlay" id="classicsRadio" class="bookRadio noNAV" />
-<input type="radio" name="overlay" id="scienceFictionRadio" class="bookRadio noNAV" />
-
+    {genreradios}
 
     <nav id="navContainer">
         <div id="anotherNavContainer">
@@ -82,85 +79,7 @@
                 <h3>Click on a genre to display books</h3>
 
                 <div id="coversContainer">
-<div class="cover">
-    <label for="CSRadio" class="bookLabel"><img alt="CS" src="../contents/library/CS/ComputerScience.jpg"></label>
-</div>
-
-<div id="CS" class="overlay">
-    <div class="popup">
-        <h2>CS</h2>
-        <label for="none" class="close bookLabel">&times;</label>
-        <div class="books">
-            <a target="_blank" href="../contents/library/CS/thinkCS(C++)/thinkCS(C++).pdf">
-  <img alt="Think c s( c++)" src="../contents/library/CS/thinkCS(C++)/thinkCS(C++).jpg" />
-</a>
-<a target="_blank" href="../contents/library/CS/thinkJava/thinkapjava.pdf">
-  <img alt="Think java" src="../contents/library/CS/thinkJava/thinkapjava.jpg" />
-</a>
-<a target="_blank" href="../contents/library/CS/thinkDSP/thinkdsp.pdf">
-  <img alt="Think d s p" src="../contents/library/CS/thinkDSP/thinkdsp.jpg" />
-</a>
-<a target="_blank" href="../contents/library/CS/learnYouAHaskell/learnyouahaskell.pdf">
-  <img alt="Learn you a haskell" src="../contents/library/CS/learnYouAHaskell/learnyouahaskell.jpg" />
-</a>
-<a target="_blank" href="../contents/library/CS/poignantGuideToRuby/poignant-guide.pdf">
-  <img alt="Poignant guide to ruby" src="../contents/library/CS/poignantGuideToRuby/poignant-guide.jpg" />
-</a>
-<a target="_blank" href="../contents/library/CS/thinkStats/thinkstats.pdf">
-  <img alt="Think stats" src="../contents/library/CS/thinkStats/thinkstats.jpg" />
-</a>
-<a target="_blank" href="../contents/library/CS/thinkPython/thinkpython.pdf">
-  <img alt="Think python" src="../contents/library/CS/thinkPython/thinkpython.jpg" />
-</a>
-
-        </div>
-    </div>
-</div>
-<div class="cover">
-    <label for="classicsRadio" class="bookLabel"><img alt="Classics" src="../contents/library/classics/Classics.jpg"></label>
-</div>
-
-<div id="classics" class="overlay">
-    <div class="popup">
-        <h2>Classics</h2>
-        <label for="none" class="close bookLabel">&times;</label>
-        <div class="books">
-            <a target="_blank" href="../contents/library/classics/theIliad/theIliad.epub">
-  <img alt="The iliad" src="../contents/library/classics/theIliad/theIliad.jpg" />
-</a>
-
-        </div>
-    </div>
-</div>
-<div class="cover">
-    <label for="scienceFictionRadio" class="bookLabel"><img alt="Sciencefiction" src="../contents/library/scienceFiction/ScienceFiction.jpg"></label>
-</div>
-
-<div id="scienceFiction" class="overlay">
-    <div class="popup">
-        <h2>Sciencefiction</h2>
-        <label for="none" class="close bookLabel">&times;</label>
-        <div class="books">
-            <a target="_blank" href="../contents/library/scienceFiction/20000LeaguesUnderTheSea/20000LeaguesUnderTheSea.epub">
-  <img alt="20000 leagues under the sea" src="../contents/library/scienceFiction/20000LeaguesUnderTheSea/20000LeaguesUnderTheSea.jpg" />
-</a>
-<a target="_blank" href="../contents/library/scienceFiction/theCallOfCthulhu/theCallOfCthulhu.epub">
-  <img alt="The call of cthulhu" src="../contents/library/scienceFiction/theCallOfCthulhu/theCallOfCthulhu.jpg" />
-</a>
-<a target="_blank" href="../contents/library/scienceFiction/talesOfSpaceAndTime/talesOfSpaceAndTime.epub">
-  <img alt="Tales of space and time" src="../contents/library/scienceFiction/talesOfSpaceAndTime/talesOfSpaceAndTime.jpg" />
-</a>
-<a target="_blank" href="../contents/library/scienceFiction/theInvisibleMan/theInvisibleMan.epub">
-  <img alt="The invisible man" src="../contents/library/scienceFiction/theInvisibleMan/theInvisibleMan.jpg" />
-</a>
-<a target="_blank" href="../contents/library/scienceFiction/warOfTheWorlds/warOfTheWorlds.pdf">
-  <img alt="War of the worlds" src="../contents/library/scienceFiction/warOfTheWorlds/warOfTheWorlds.jpg" />
-</a>
-
-        </div>
-    </div>
-</div>
-
+{genreshelves}
                 </div>
             </main>
         </div>
@@ -181,26 +100,8 @@
         </footer>
     </div>
 
-<script>
-    //Google Analytics
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-91643332-1', 'auto');
-    ga('send', 'pageview');
-</script>
-
+{analytics}
 
 </body>
 
 </html>
-
