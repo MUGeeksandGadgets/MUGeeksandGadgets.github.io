@@ -668,6 +668,12 @@ body {
   display: flex;
   align-items: center; }
 
+#mainAbout .officerDesc p:nth-child(2) {
+  text-align: justify; }
+
+#mainAbout #valuesParagraph {
+  text-align: justify; }
+
 /*OFFICER NAME COLOR*/
 #mainAbout .officerTitle {
   color: #199D72; }
@@ -1552,3 +1558,5 @@ just replace your value based on the ratio equation*/
   #cssSlider > #pageIndicators {
     display: none; } }
 /**********END CSS SLIDER**********/
+
+/*# sourceMappingURL=style.css.map */
