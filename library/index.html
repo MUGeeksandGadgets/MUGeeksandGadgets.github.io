@@ -13,8 +13,9 @@
     <link rel='stylesheet' href='../css/style.css' />
     <style>
 #CSRadio:checked ~ #wrapper > #content > #mainLibrary > #coversContainer > #CS
-, #classicsRadio:checked ~ #wrapper > #content > #mainLibrary > #coversContainer > #classics
+, #philosophyRadio:checked ~ #wrapper > #content > #mainLibrary > #coversContainer > #philosophy
 , #scienceFictionRadio:checked ~ #wrapper > #content > #mainLibrary > #coversContainer > #scienceFiction
+, #classicsRadio:checked ~ #wrapper > #content > #mainLibrary > #coversContainer > #classics
  {
   visibility: visible;
   opacity: 1;
@@ -31,8 +32,9 @@
 
     <input type="radio" name="overlay" id="none" class="bookRadio">
     <input type="radio" name="overlay" id="CSRadio" class="bookRadio noNAV" />
-<input type="radio" name="overlay" id="classicsRadio" class="bookRadio noNAV" />
+<input type="radio" name="overlay" id="philosophyRadio" class="bookRadio noNAV" />
 <input type="radio" name="overlay" id="scienceFictionRadio" class="bookRadio noNAV" />
+<input type="radio" name="overlay" id="classicsRadio" class="bookRadio noNAV" />
 
 
     <nav id="navContainer">
@@ -132,16 +134,16 @@
     </div>
 </div>
 <div class="cover">
-    <label for="classicsRadio" class="bookLabel"><img alt="Classics" src="../contents/library/classics/Classics.jpg"></label>
+    <label for="philosophyRadio" class="bookLabel"><img alt="Philosophy" src="../contents/library/philosophy/philosophy.jpg"></label>
 </div>
 
-<div id="classics" class="overlay">
+<div id="philosophy" class="overlay">
     <div class="popup">
-        <h2>Classics</h2>
+        <h2>Philosophy</h2>
         <label for="none" class="close bookLabel">&times;</label>
         <div class="books">
-            <a target="_blank" href="../contents/library/classics/theIliad/theIliad.epub">
-  <img alt="The Iliad" src="../contents/library/classics/theIliad/theIliad.jpg" />
+            <a target="_blank" href="../contents/library/philosophy/symposium/symposium.epub">
+  <img alt="Symposium" src="../contents/library/philosophy/symposium/cover.jpg" />
 </a>
 
         </div>
@@ -173,6 +175,22 @@
 </a>
 <a target="_blank" href="../contents/library/scienceFiction/warOfTheWorlds/warOfTheWorlds.pdf">
   <img alt="War Of The Worlds" src="../contents/library/scienceFiction/warOfTheWorlds/warOfTheWorlds.jpg" />
+</a>
+
+        </div>
+    </div>
+</div>
+<div class="cover">
+    <label for="classicsRadio" class="bookLabel"><img alt="Classics" src="../contents/library/classics/Classics.jpg"></label>
+</div>
+
+<div id="classics" class="overlay">
+    <div class="popup">
+        <h2>Classics</h2>
+        <label for="none" class="close bookLabel">&times;</label>
+        <div class="books">
+            <a target="_blank" href="../contents/library/classics/theIliad/theIliad.epub">
+  <img alt="The Iliad" src="../contents/library/classics/theIliad/theIliad.jpg" />
 </a>
 
         </div>
