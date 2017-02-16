@@ -1,0 +1,8 @@
+{radioselectors} {{
+  visibility: visible;
+  opacity: 1;
+  z-index: 16; }}
+
+#none:checked ~ #wrapper > #content > #mainLibrary > #coversContainer > .overlay > .popup > .books a {{
+  pointer-events: none;
+  cursor: default; }}

@@ -11,6 +11,20 @@
     <link rel="apple-touch-icon" sizes="72x72" href="../contents/apple-touch-icon-72x72.png" />
     <link rel="apple-touch-icon" sizes="144x144" href="../contents/apple-touch-icon-144x144.png" />
     <link rel='stylesheet' href='../css/style.css' />
+    <style>
+#CSRadio:checked ~ #wrapper > #content > #mainLibrary > #coversContainer > #CS
+, #classicsRadio:checked ~ #wrapper > #content > #mainLibrary > #coversContainer > #classics
+, #scienceFictionRadio:checked ~ #wrapper > #content > #mainLibrary > #coversContainer > #scienceFiction
+ {
+  visibility: visible;
+  opacity: 1;
+  z-index: 16; }
+
+#none:checked ~ #wrapper > #content > #mainLibrary > #coversContainer > .overlay > .popup > .books a {
+  pointer-events: none;
+  cursor: default; }
+
+    </style>
 </head>
 
 <body id="top">

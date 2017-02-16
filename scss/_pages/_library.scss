@@ -84,19 +84,6 @@
     justify-content: center;
 }
 
-#CSRadio:checked ~ #wrapper> #content> #mainLibrary> #coversContainer> #CS,
-#scienceFictionRadio:checked ~ #wrapper> #content> #mainLibrary> #coversContainer> #scienceFiction,
-#classicsRadio:checked ~ #wrapper> #content> #mainLibrary> #coversContainer> #classics {
-    visibility: visible;
-    opacity: 1;
-    z-index: 16;
-}
-
-#none:checked ~ #wrapper> #content> #mainLibrary> #coversContainer> .overlay> .popup> .books a {
-    pointer-events: none;
-    cursor: default;
-}
-
 .bookLabel {
     cursor: pointer;
 }
