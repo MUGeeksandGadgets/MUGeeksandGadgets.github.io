@@ -93,7 +93,7 @@
     border-radius: 5px;
     width: 80%;
     position: relative;
-    transition: all 5s ease-in-out;
+    transition: all 1s ease-in-out;
     max-height: 100vh;
 }
 
@@ -140,9 +140,9 @@
         top: 40px;
         right: 30px;
     }
-    .noNAV:checked ~ #blueBlock,
-    .noNAV:checked ~ #menu,
-    .noNAV:checked ~ #navContainer {
+    .noNAV:checked~#blueBlock,
+    .noNAV:checked~#menu,
+    .noNAV:checked~#navContainer {
         visibility: hidden;
         opacity: 0;
         transition: .25s ease-in-out;
