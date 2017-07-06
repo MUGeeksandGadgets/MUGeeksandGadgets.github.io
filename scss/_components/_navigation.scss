@@ -147,6 +147,10 @@
     .navHome {
         display: none;
     }
+	#resourceDropdown input,
+	#resourceDropdown > img{
+		display: none;
+	}
 }
 
 
@@ -371,10 +375,10 @@
         /* critical styles - hide the checkbox input*/
         position: fixed;
         z-index: 13;
-        top: 1em;
-        right: 1em;
-        height: 4em;
-        width: 4em;
+        top: .5em;
+        right: .5em;
+        height: 3.5em;
+        width: 3.5em;
         filter: alpha(opacity=0);
         opacity: 0;
     }
@@ -394,19 +398,34 @@
 	#resourceDropdown {
 		position: relative;
 	}
-	#resourceDropdown input{
+	#resourceDropdown input,
+	#resourceDropdown > img{
 		position: absolute;
-		top: 0;
+		top: 1em;
 		right: 0;
-		background-image: url(contents/webImages/expand.svg);
+		left: initial;
+		width: 2em;
+		height: 2em;
+		cursor: pointer;
+	}
+	#resourceDropdown input{
+		filter: alpha(opacity=0);
+        opacity: 0;
+		z-index: 15;
+	}
+	#resourceDropdown input:checked ~ img{
+		 transform: rotate(180deg);
+	}
+	#resourceDropdown > img{
+		transition: .5s linear;
 	}
 	#resourceDropdown #subNav1{
 		max-height: 0;
 		-webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-transition: all 0.5s ease-in-out;
+		-moz-transition: all 0.5s ease-in-out;
+		-o-transition: all 0.5s ease-in-out;
+		-ms-transition: all 0.5s ease-in-out;
+		transition: all 0.5s ease-in-out;
 	}
 	#resourceDropdown input:checked ~ #subNav1{
 		max-height: 15em;
