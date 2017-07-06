@@ -17,10 +17,6 @@
             <a href="/"><img alt="GG Logo" src="contents/GG.svg" onerror="this.src='contents/GG.png'; this.onerror=null;" /></a>
             <div class="nav-wrapper-inner">
                 <ul>
-                    <li class="navHome" id="navMobileSpacer">
-                        <p>-</p>
-                    </li>
-                    <!--Spacer for mobile nav-->
                     <li class="navHome">
                         <a class="currentPage" href="/">HOME</a>
                     </li>
@@ -60,13 +56,13 @@
     </nav>
     <input type="checkbox" id="nav-trigger" class="nav-trigger" />
     <div class="clear-menu-btn"> <span class="top"></span> <span class="middle"></span> <span class="bottom"></span> <span class="circle"></span> </div>
-    <div id="blueBlock">
-        <div id="blueBlockContent"></div>
-        <div id="blueBlockAccent">
+    <div class="fixed-mobile-nav">
+        <div class="fixed-mobile-nav-content"></div>
+        <div class="fixed-mobile-nav-accent">
             <h1 id="pgTitleM">#Home<span class="blinking-cursor">_</span></h1> </div>
     </div>
     <div id="wrapper">
-        <div id="moverBlock"></div>
+        <div class="mobile-nav-spacer"></div>
         <div id="content">
             <div id="cssSlider">
                 <input type="radio" name="slider" id="slide1">
