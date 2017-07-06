@@ -378,17 +378,17 @@ main {
     z-index: 12;
     height: 3.5em;
   }
-  /* line 268, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  /* line 264, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
   #moverBlock {
     height: 6.2em;
     width: 100%;
   }
   /*page titles d=wide, m=narrow*/
-  /* line 273, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  /* line 269, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
   #pgTitleD {
     display: none;
   }
-  /* line 276, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  /* line 272, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
   #pgTitleM {
     color: #C5C5C4;
     font-size: 1.2em;
@@ -397,7 +397,7 @@ main {
     margin: 0;
   }
   /* Pure CSS3 Hamburger*/
-  /* line 284, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  /* line 280, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
   .clear-menu-btn {
     position: fixed;
     right: .5em;
@@ -407,16 +407,16 @@ main {
     height: 3em;
     margin: 0 auto;
   }
-  /* line 293, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  /* line 289, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
   .nav-trigger:hover {
     cursor: pointer;
   }
-  /* line 296, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  /* line 292, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
   .nav-trigger:checked ~ .clear-menu-btn .top,
   .nav-trigger:checked ~ .clear-menu-btn .bottom {
     top: 50%;
   }
-  /* line 300, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  /* line 296, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
   .nav-trigger:checked ~ .clear-menu-btn .top {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -424,7 +424,7 @@ main {
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
   }
-  /* line 307, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  /* line 303, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
   .nav-trigger:checked ~ .clear-menu-btn .bottom {
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -432,17 +432,17 @@ main {
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
   }
-  /* line 314, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  /* line 310, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
   .nav-trigger:checked ~ .clear-menu-btn .middle {
     filter: alpha(opacity=0);
     opacity: 0;
   }
-  /* line 318, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  /* line 314, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
   .nav-trigger:checked ~ .clear-menu-btn .circle {
     filter: alpha(opacity=100);
     opacity: 1;
   }
-  /* line 322, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  /* line 318, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
   .clear-menu-btn span {
     position: absolute;
     display: block;
@@ -455,28 +455,28 @@ main {
     transition: all 0.3s;
     z-index: -1;
   }
-  /* line 334, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  /* line 330, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
   .clear-menu-btn .top {
     top: 35%;
     margin-left: .75em;
     background-color: #5BBF9E;
     z-index: 1;
   }
-  /* line 340, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  /* line 336, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
   .clear-menu-btn .middle {
     top: 50%;
     margin-left: .75em;
     background-color: #5BBF9E;
     z-index: 1;
   }
-  /* line 346, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  /* line 342, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
   .clear-menu-btn .bottom {
     top: 65%;
     margin-left: .75em;
     background-color: #5BBF9E;
     z-index: 1;
   }
-  /* line 352, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  /* line 348, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
   .clear-menu-btn .circle {
     display: block;
     position: absolute;
@@ -499,7 +499,7 @@ main {
     z-index: -1;
   }
   /* Nav Trigger */
-  /* line 374, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  /* line 370, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
   .nav-trigger {
     /* critical styles - hide the checkbox input*/
     position: fixed;
@@ -512,24 +512,48 @@ main {
     opacity: 0;
   }
   /* Make the Magic Happen */
-  /* line 386, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  /* line 382, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
   #wrapper {
     transition: right .5s;
   }
-  /* line 389, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  /* line 385, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
   .nav-trigger:checked ~ #wrapper {
     /*The window*/
     right: 15.5em;
   }
   /* Without this, the body has excess horizontal scroll when the menu is open */
-  /* line 394, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  /* line 390, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
   body {
     overflow-x: hidden;
+  }
+  /* line 394, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  #resourceDropdown {
+    position: relative;
+  }
+  /* line 397, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  #resourceDropdown input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(contents/webImages/expand.svg);
+  }
+  /* line 403, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  #resourceDropdown #subNav1 {
+    max-height: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  /* line 411, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  #resourceDropdown input:checked ~ #subNav1 {
+    max-height: 15em;
   }
 }
 
 /*BLINKING CURSOR*/
-/* line 401, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+/* line 418, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
 .blinking-cursor {
   font-weight: bold;
   font-size: 30px;
@@ -572,12 +596,12 @@ main {
 }
 
 @-ms-keyframes "blink" {
-  /* line 443, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  /* line 460, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
   from,
   to {
     color: transparent;
   }
-  /* line 447, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  /* line 464, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
   50% {
     color: #C5C5C4;
   }

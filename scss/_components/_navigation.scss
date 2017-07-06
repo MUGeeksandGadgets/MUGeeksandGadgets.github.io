@@ -255,11 +255,7 @@
         width: 100%;
     }
     .nav-wrapper-outer img {
-        //position: absolute;
         position: fixed;
-        //top: .25em;
-        //left: 1em;
-        //height: 4.5em;
         left: .5em;
         top: .25em;
         z-index: 12;
@@ -394,6 +390,27 @@
     body {
         overflow-x: hidden;
     }
+	
+	#resourceDropdown {
+		position: relative;
+	}
+	#resourceDropdown input{
+		position: absolute;
+		top: 0;
+		right: 0;
+		background-image: url(contents/webImages/expand.svg);
+	}
+	#resourceDropdown #subNav1{
+		max-height: 0;
+		-webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+	}
+	#resourceDropdown input:checked ~ #subNav1{
+		max-height: 15em;
+	}
 }
 
 /*BLINKING CURSOR*/
