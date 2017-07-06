@@ -1,78 +1,81 @@
 /*NAV:WIDE SCREEN*/
 
 @media only screen and (min-width: 1001px) {
-    #navContainer * {
+	/*main nav styling and positioning*/
+    nav * {
         padding: 0;
         margin: 0;
     }
-    #navContainer {
+    nav {
         position: relative;
-        height: 12em;
+        height: 7.2em;
         width: 100%;
         background-color: $mainColor;
     }
-    #nav {
+    
+    .nav-wrapper-outer {
+        position: absolute;
+		display:block;
+        z-index: 2;
+        width: 100%;
+        height: 5em;
+		line-height: 5em;
+		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    }
+	.nav-wrapper-inner {
         position: absolute;
         top: 0;
         right: 0;
+		height: 100%;
     }
-    #anotherNavContainer {
-        position: absolute;
-        z-index: 2;
-        width: 100%;
-        height: 8.4em;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    }
-    #navAccent {
+    .navAccent {
         position: absolute;
         bottom: 0;
         background-color: $mainAccent;
         width: 100%;
-        height: 3.6em;
+        height: 2.2em;
+        line-height: 2em;
     }
-    #nav ul {
+	
+	/*items styling and positioning*/
+    .nav-wrapper-inner ul {
         height: 100%;
         list-style: none;
-        position: relative;
-        float: left;
-        padding-right: 2.5em;
         z-index: 2;
     }
-    #nav ul li {
+	
+	.nav-wrapper-inner> ul{
+		padding-right: 2.5em;
+	}
+    .nav-wrapper-inner ul li {
         height: 100%;
         position: relative;
         float: left;
-        margin: 0;
-        padding: 0;
         transition: background-color .3s linear;
     }
-    #nav ul li:hover {
+    .nav-wrapper-inner ul li:hover {
         background: $mainColorShade;
     }
-    #nav ul li a:hover {
-        color: $hoverColor;
-    }
-    #nav a.currentPage {
+    .nav-wrapper-inner ul li a:hover,
+	.nav-wrapper-inner a.currentPage	{
         color: $hoverColor;
     }
     /*DROPDOWN SUBNAV*/
     #resourceDropdown {
-        max-height: 8.4em !important;
-        max-width: 10em;
+        width: 10em;
     }
+
     #subNav1 {
-        width: 7.55em;
-        max-width: 10em;
-        background: $mainColor;
-        float: left;
+        width: 10em;
+        background-color: $mainColor;
         left: 0;
         opacity: 0;
-        position: absolute;
-        top: -5em;
+        position: absolute; /*Why did i do this?*/
+        top: 2.5em;
         visibility: hidden;
         z-index: 1;
         -webkit-transition: all .3s ease;
-        transition: all .3s ease;
+        transition: all .4s ease;
     }
     #subNav1 li {
         float: none;
@@ -80,75 +83,56 @@
     }
     #resourceDropdown:hover> #subNav1 {
         opacity: 1;
-        top: 0;
+        top: 5em;
         visibility: visible;
+		height: initial !important;
     }
-    #subNav1 li p a {
+    #subNav1 li a {
         width: 10em;
         height: initial;
     }
-    /* Clearfix */
-    #nav> ul:after,
-    #nav> ul:before {
+    /* Clearfix - self center its children suppoedly TEST THE NEED OF THIS
+    .nav-wrapper-inner> ul:after,
+    .nav-wrapper-inner> ul:before {
         content: "";
         display: table;
     }
-    #nav> ul:after {
+    .nav-wrapper-inner> ul:after {
         clear: both;
     }
     /*TEXT*/
-    #nav a {
+    .nav-wrapper-inner a {
         display: block;
         text-align: center;
-        height: 8.4em;
-        width: 100%;
         color: white;
         text-decoration: none;
         font-weight: bold;
-        transition: .3s linear;
-        overflow: hidden;
-    }
-    #nav p {
-        font-size: 1em;
+        transition: background-color .3s;
         letter-spacing: .1em;
-        padding-left: .8em;
-        padding-right: .8em;
-        padding-bottom: 0;
-        padding-top: 0;
-        text-align: center;
-        height: 8.4em;
-        line-height: 8.4em;
-        white-space: nowrap;
+        padding: 0 .8em;
     }
-    #subNav1 p {
+	
+    #subNav1 a {
         text-align: center;
         height: 4em !important;
         line-height: 4em !important;
-    }
-    #subNav1 a {
-        height: 4em !important;
         padding-top: 0 !important;
         width: initial !important;
     }
     /*PG TITLE*/
     #pgTitleD {
         color: $lighterFontColor;
-        font-size: 2.2em;
         text-align: center;
-        height: 1.4em;
-        line-height: 1.4em;
         white-space: nowrap;
     }
     /*IMAGE*/
-    #navContainer img {
+    nav img {
         position: absolute;
-        top: -.4em;
-        left: 0;
-        padding-top: 0em;
-        padding-bottom: 0em;
-        padding-left: 2.5em;
-        margin: 0;
-        height: 9em;
+        left: 2.5em;
+        height: 4em;
+		height: 4em;
+		top: 50%;
+		transform: translateY(-50%)
     }
     /*MOBILE NAV*/
     #nav-trigger {
@@ -169,8 +153,12 @@
 /*NAV:NARROW SCREEN*/
 
 @media only screen and (max-width: 1000px) {
+	nav *{
+		padding: 0;
+		margin: 0;
+	}
     /* Navigation Menu - Background */
-    #nav {
+    .nav-wrapper-inner {
         background-color: $mainColor;
         /* critical sizing and position styles */
         width: 15.5em;
@@ -187,43 +175,35 @@
         flex-direction: column;
     }
     /* Navigation Menu - List items */
-    #nav ul {
-        padding: 0;
-        margin: 0;
+    .nav-wrapper-inner ul {
         width: 100%;
-        list-style-type: square;
+        line-height: 4em;
     }
-    #nav ul li {
+    .nav-wrapper-inner ul li {
         /* non-critical appearance styles */
         width: 100%;
         transition: background-color .3s linear;
         display: block;
         overflow: hidden;
     }
-    #nav ul li:hover {
+    .nav-wrapper-inner ul li:hover {
         background-color: $mainColorShade;
     }
-    #nav p {
-        text-align: left;
-        font-size: 1.5em;
+    .nav-wrapper-inner #subNav1 a {
         padding-left: 1em;
     }
-    #nav #subNav1 p {
-        padding-left: 2em;
-    }
-    #nav a {
+    .nav-wrapper-inner a {
         display: block;
-        padding: 3em;
-        margin: -3em;
         color: white;
         text-decoration: none;
         font-weight: bold;
         transition: .3s linear;
+		text-align: left;
+		font-size: 1.5em;
+		padding-left: .5em;
     }
-    #nav a:hover {
-        color: $hoverColor;
-    }
-    #nav a.currentPage {
+    .nav-wrapper-inner a:hover,
+	.nav-wrapper-inner a.currentPage {
         color: $hoverColor;
     }
     /* Site Wrapper - Everything that isn't navigation */
@@ -243,7 +223,7 @@
     /*following header*/
     #blueBlock {
         width: 100%;
-        height: 7.5em;
+        height: 6.2em;
         background-color: $mainColor;
         box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
         position: fixed;
@@ -253,7 +233,7 @@
     #blueBlockContent {
         position: absolute;
         top: 0;
-        height: 5em;
+        height: 4em;
         width: 100%;
         background-color: $mainColor;
         z-index: 2;
@@ -262,27 +242,31 @@
     #blueBlockAccent {
         position: absolute;
         bottom: 0;
-        height: 3em;
-        width: 100%;
         background-color: $mainAccent;
+        width: 100%;
+        height: 2.2em;
+        line-height: 2em;
     }
     .nav-trigger:checked~ #blueBlock {
         box-shadow: 0 0 7px 7px rgba(0, 0, 0, 0.4);
     }
     #navMobileSpacer {
-        height: 7.5em;
+        height: 6.2em;
         width: 100%;
     }
-    #navContainer img {
-        position: absolute;
+    .nav-wrapper-outer img {
+        //position: absolute;
         position: fixed;
+        //top: .25em;
+        //left: 1em;
+        //height: 4.5em;
+        left: .5em;
         top: .25em;
-        left: 1em;
-        height: 4.5em;
-        z-index: 11;
+        z-index: 12;
+        height: 3.5em;
     }
     #moverBlock {
-        height: 7.5em;
+        height: 6.2em;
         width: 100%;
     }
     /*page titles d=wide, m=narrow*/
@@ -291,17 +275,16 @@
     }
     #pgTitleM {
         color: $lighterFontColor;
-        font-size: 2em;
+        font-size: 1.2em;
         text-align: center;
-        margin-top: .25em;
-        margin-bottom: 0;
-        padding: 0;
+		padding: 0;
+		margin: 0;
     }
     /* Pure CSS3 Hamburger*/
     .clear-menu-btn {
         position: fixed;
-        right: 1em;
-        top: 1em;
+        right: .5em;
+        top: .5em;
         z-index: 12;
         width: 3em;
         height: 3em;
@@ -410,5 +393,68 @@
     /* Without this, the body has excess horizontal scroll when the menu is open */
     body {
         overflow-x: hidden;
+    }
+}
+
+/*BLINKING CURSOR*/
+
+.blinking-cursor {
+    font-weight: bold;
+    font-size: 30px;
+    color: $lighterFontColor;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+    from,
+    to {
+        color: transparent;
+    }
+    50% {
+        color: $lighterFontColor;
+    }
+}
+
+@-moz-keyframes blink {
+    from,
+    to {
+        color: transparent;
+    }
+    50% {
+        color: $lighterFontColor;
+    }
+}
+
+@-webkit-keyframes "blink" {
+    from,
+    to {
+        color: transparent;
+    }
+    50% {
+        color: $lighterFontColor;
+    }
+}
+
+@-ms-keyframes "blink" {
+    from,
+    to {
+        color: transparent;
+    }
+    50% {
+        color: $lighterFontColor;
+    }
+}
+
+@-o-keyframes "blink" {
+    from,
+    to {
+        color: transparent;
+    }
+    50% {
+        color: $lighterFontColor;
     }
 }
