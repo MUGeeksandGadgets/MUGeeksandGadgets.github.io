@@ -398,16 +398,16 @@
     #resourceDropdown input,
     #resourceDropdown>img {
         position: absolute;
-        top: .5em;
         right: 1em;
         left: initial;
-        width: 3em;
-        height: 3em;
         cursor: pointer;
     }
     #resourceDropdown input {
         filter: alpha(opacity=0);
         opacity: 0;
+        top: 1em;
+        width: 3em;
+        height: 3em;
         z-index: 15;
     }
     #resourceDropdown input:checked~img {
@@ -415,6 +415,9 @@
     }
     #resourceDropdown>img {
         transition: .5s linear;
+        top: 1em;
+        width: 2em;
+        height: 2em;
     }
     #resourceDropdown #subNav1 {
         max-height: 0;
