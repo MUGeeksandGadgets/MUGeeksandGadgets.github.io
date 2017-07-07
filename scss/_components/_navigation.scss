@@ -398,11 +398,11 @@
     #resourceDropdown input,
     #resourceDropdown>img {
         position: absolute;
-        top: 1em;
-        right: 0;
+        top: .5em;
+        right: 1em;
         left: initial;
-        width: 2em;
-        height: 2em;
+        width: 3em;
+        height: 3em;
         cursor: pointer;
     }
     #resourceDropdown input {
