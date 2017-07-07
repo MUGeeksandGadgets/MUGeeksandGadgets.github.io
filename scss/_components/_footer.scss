@@ -1,5 +1,10 @@
 /*FOOTER*/
 
+footer * {
+    margin: 0;
+    padding: 0;
+}
+
 .footer-accent {
     background-color: $mainAccent;
     width: 100%;
@@ -10,9 +15,8 @@
     margin: 0;
     padding: 0;
     color: $lighterFontColor;
-    font-size: 2.2em;
     text-align: center;
-    height: 1.4em;
+    height: 100%;
     line-height: 1.4em;
     white-space: nowrap;
 }
@@ -46,7 +50,7 @@
         width: 80%;
     }
     .footer-social img {
-        height: 85%;
+        height: 70%;
     }
 }
 
@@ -107,7 +111,7 @@
 /*FOOTER> KEEP AT BOTTOM*/
 
 #wrapper {
-    min-height: 100%;
+    min-height: 100vh;
     position: relative;
 }
 
