@@ -1,12 +1,12 @@
 /*FOOTER*/
 
-#footer_accent {
+.footer-accent {
     background-color: $mainAccent;
     width: 100%;
     height: 30%;
 }
 
-#MUGG {
+.MUGG {
     margin: 0;
     padding: 0;
     color: $lighterFontColor;
@@ -20,17 +20,17 @@
 
 /*FOOTER CONTENT*/
 
-#footerContent {
+.footer-wrapper {
     height: 70%;
     width: 100%;
     box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.19), 0 -6px 6px rgba(0, 0, 0, 0.23);
 }
 
-#connect {
+.footer-connect {
     height: 30%;
 }
 
-#connect h2 {
+.footer-connect h2 {
     text-align: center;
     padding-top: .4em;
     margin: 0;
@@ -41,12 +41,12 @@
 /*FOOTER SOCIAL ICONS:WIDE SCREEN*/
 
 @media only screen and (min-width: 1001px) {
-    #connectSocial {
+    .footer-social {
         height: 70%;
         width: 80%;
     }
-    #connectSocial img {
-        height: 60%;
+    .footer-social img {
+        height: 85%;
     }
 }
 
@@ -54,21 +54,21 @@
 /*FOOTER SOCIAL ICONS:NARROW SCREEN*/
 
 @media only screen and (max-width: 1000px) {
-    #connectSocial {
+    .footer-social {
         height: 60%;
         width: 95%;
     }
-    #connectSocial img {
-        height: 55%;
+    .footer-social img {
+        height: 75%;
     }
 }
 
-#connectSocial {
+.footer-social {
     margin: auto;
     text-align: justify;
 }
 
-#connectSocial img {
+.footer-social img {
     display: inline-block;
     vertical-align: top;
     /* IE fix. */
@@ -76,29 +76,29 @@
     zoom: 1;
 }
 
-#connectSocial:after {
+.footer-social:after {
     content: "";
     width: 100%;
     display: inline-block;
 }
 
-#connectSocial img {
+.footer-social img {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
 
-#connectSocial img {
+.footer-social img {
     opacity: 1;
     transition: visibility 0s .25s, opacity .25s linear;
 }
 
-#connectSocial:hover img {
+.footer-social:hover img {
     opacity: 0.2;
     transition: opacity .25s linear;
 }
 
-#connectSocial:hover img:hover {
+.footer-social:hover img:hover {
     opacity: 1;
     transition: visibility 0s .25s, opacity .25s linear;
 }
@@ -106,27 +106,20 @@
 
 /*FOOTER> KEEP AT BOTTOM*/
 
-html,
-body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
 #wrapper {
     min-height: 100%;
     position: relative;
 }
 
 #content {
-    padding-bottom: 12em;
+    padding-bottom: 10em;
     /* Height of the footer element */
 }
 
-#footer {
+footer {
     background: $mainColor;
     width: 100%;
-    height: 12em;
+    height: 10em;
     position: absolute;
     bottom: 0;
     left: 0;

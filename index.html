@@ -9,57 +9,25 @@
     <link rel="apple-touch-icon" sizes="57x57" href="contents/apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon" sizes="72x72" href="contents/apple-touch-icon-72x72.png" />
     <link rel="apple-touch-icon" sizes="144x144" href="contents/apple-touch-icon-144x144.png" />
-    <link rel='stylesheet' href='css/style.css' /> </head>
+    <link rel='stylesheet' href='css/style.css' />
+</head>
+<style>
+    #pgTitleD:before,
+    #pgTitleM:before {
+        content: "Home#";
+    }
+</style>
 
 <body id="top">
-    <nav>
-        <div class="nav-wrapper-outer">
-            <a href="/"><img alt="GG Logo" src="contents/GG.svg" onerror="this.src='contents/GG.png'; this.onerror=null;" /></a>
-            <div class="nav-wrapper-inner">
-                <ul>
-                    <li class="navHome">
-                        <a class="currentPage" href="/">HOME</a>
-                    </li>
-                    <li>
-                        <a href="library/">LIBRARY</a>
-                    </li>
-                    <li id="resourceDropdown">
-                        <a href="resources/">RESOURCES</a>
-						<input type="checkbox"></input>
-						<img src="contents/webImages/expand.svg"/>
-                        <ul id="subNav1">
-                            <li>
-                                <a target="_blank" href="https://www.github.com/mugeeksandgadgets">GITHUB</a>
-                            </li>
-                            <li>
-                                <a href="resources/software.html">SOFTWARE</a>
-                            </li>
-                            <li>
-                                <a href="resources/programming.html">PROGRAMMING</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="projects/">PROJECTS</a>
-                    </li>
-                    <li>
-                        <a href="about/">ABOUT</a>
-                    </li>
-                    <li>
-                        <a href="contact/">CONTACT</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="navAccent">
-            <h1 id="pgTitleD">#Home<span class="blinking-cursor">_</span></h1> </div>
-    </nav>
+    <!--nav-->
+    <!--/nav-->
     <input type="checkbox" id="nav-trigger" class="nav-trigger" />
     <div class="clear-menu-btn"> <span class="top"></span> <span class="middle"></span> <span class="bottom"></span> <span class="circle"></span> </div>
     <div class="fixed-mobile-nav">
         <div class="fixed-mobile-nav-content"></div>
         <div class="fixed-mobile-nav-accent">
-            <h1 id="pgTitleM">#Home<span class="blinking-cursor">_</span></h1> </div>
+            <h1 id="pgTitleM"><span class="blinking-cursor"></span></h1>
+        </div>
     </div>
     <div id="wrapper">
         <div class="mobile-nav-spacer"></div>
@@ -145,28 +113,15 @@
                 </article>
             </main>
         </div>
-        <footer id="footer">
-            <div id="footer_accent">
-                <h1 id="MUGG">#GG<span class="blinking-cursor">_</span></h1> </div>
-            <div id="footerContent">
-                <div id="connect">
-                    <h2>MU G&G</h2> </div>
-                <div id="connectSocial">
-                    <a target="_blank" href="contents/socialIcons/Application.pdf"><img alt="Form" src="contents/socialIcons/form.svg" onerror="this.src='contents/socialIcons/form.png'; this.onerror=null;" /></a>
-                    <a target="_blank" href="https://www.facebook.com/geeksandgadgetsclub"><img alt="Facebook" src="contents/socialIcons/facebook.svg" onerror="this.src='contents/socialIcons/facebook.png'; this.onerror=null;" /></a>
-                    <a target="_blank" href="https://www.youtube.com/channel/UCKewnEQIee3QeGMmJXzo3uA"><img alt="YouTube" src="contents/socialIcons/youtube.svg" onerror="this.src='contents/socialIcons/youtube.png'; this.onerror=null;" /></a>
-                    <a target="_blank" href="https://github.com/MUGeeksandGadgets"><img alt="GitHub" src="contents/socialIcons/github.svg" onerror="this.src='contents/socialIcons/github.png'; this.onerror=null;" /></a>
-                </div>
-            </div>
-            <p id="bduke"><a target="_blank" href="https://bmduke1997.github.io/">A b.duke Site</a></p>
-        </footer>
+        <!--footer-->
+        <!--/footer-->
     </div>
-
+    
     <script>
         //Google Analytics
-        (function (i, s, o, g, r, a, m) {
+        (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
+            i[r] = i[r] || function() {
                 (i[r].q = i[r].q || []).push(arguments)
             }, i[r].l = 1 * new Date();
             a = s.createElement(o),
@@ -178,6 +133,7 @@
 
         ga('create', 'UA-91643332-1', 'auto');
         ga('send', 'pageview');
+
     </script>
 
 </body>
