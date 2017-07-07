@@ -140,12 +140,16 @@
         top: 40px;
         right: 30px;
     }
-    .noNAV:checked~#blueBlock,
+    .noNAV:checked~.fixed-mobile-nav,
     .noNAV:checked~#menu,
-    .noNAV:checked~#navContainer {
+    .noNAV:checked~nav {
         visibility: hidden;
         opacity: 0;
         transition: .25s ease-in-out;
+    }
+    /*can't click if nav is open*/
+    .nav-trigger:checked~#wrapper>#content>#mainLibrary>#coversContainer>.cover>.bookLabel {
+        pointer-events: none;
     }
 }
 
