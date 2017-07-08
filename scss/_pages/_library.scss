@@ -151,6 +151,9 @@
     .nav-trigger:checked~#wrapper>#content>#mainLibrary>#coversContainer>.cover>.bookLabel {
         pointer-events: none;
     }
+    .noNAV:checked~#nav-trigger {
+        display: none;
+    }
 }
 
 
