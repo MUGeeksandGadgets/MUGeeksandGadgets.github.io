@@ -1,1 +1,2071 @@
-html,body{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}@font-face{font-family:Ubuntu-Regular;src:url(Ubuntu-Regular.ttf)}*{font-family:'Ubuntu-Regular';color:#2F2F2F}main h1{font-size:2em}main h2{font-size:1.8em}main h3{font-size:1.7em}main h4{font-size:1.6em}main p,main ul>li{font-size:1.5em}@media only screen and (min-width: 1001px){main{width:70%}}@media only screen and (max-width: 1000px){main{width:90%}}main{margin-left:auto;margin-right:auto}#content a{transition:.25s linear}#content a:hover{color:#199D72}@media only screen and (min-width: 1001px){nav *{padding:0;margin:0}nav{position:relative;height:7.2em;width:100%;background-color:#125D53}.nav-wrapper-outer{position:absolute;display:block;z-index:2;width:100%;height:5em;line-height:5em;box-shadow:0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23)}.nav-wrapper-inner{position:absolute;top:0;right:0;height:100%}.navAccent{position:absolute;bottom:0;background-color:#676767;width:100%;height:2.2em;line-height:2em}.nav-wrapper-inner ul{height:100%;list-style:none;z-index:2}.nav-wrapper-inner>ul{padding-right:2.5em}.nav-wrapper-inner ul li{height:100%;position:relative;float:left;transition:background-color .3s linear}.nav-wrapper-inner ul li:hover{background:#277369 !important}.nav-wrapper-inner ul li a:hover,.nav-wrapper-inner a.currentPage{color:#199D72 !important}#resourceDropdown{width:10em}#subNav1{width:10em;background-color:#125D53;left:0;opacity:0;position:absolute;top:0;visibility:hidden;z-index:1;-webkit-transition:all .4s ease;transition:all .4s ease}#subNav1 li{background-color:#125D53;width:10em}#resourceDropdown:hover>#subNav1{opacity:1;top:5em;visibility:visible;height:initial !important}#subNav1 li a{width:10em;height:initial}.nav-wrapper-inner a{display:block;text-align:center;color:white;text-decoration:none;font-weight:bold;transition:background-color .3s;letter-spacing:.1em;padding:0 .8em}#subNav1 a{text-align:center;height:4em !important;line-height:4em !important;padding-top:0 !important;width:initial !important}#pgTitleD{color:#C5C5C4;text-align:center;white-space:nowrap}nav img{position:absolute;left:2.5em;height:4em;height:4em;top:50%;transform:translateY(-50%)}#nav-trigger{display:none}.fixed-mobile-nav{display:none}.clear-menu-btn{display:none}.navHome{display:none}#resourceDropdown input,#resourceDropdown>img{display:none}}@media only screen and (max-width: 1000px){nav *{padding:0;margin:0}.nav-wrapper-inner{background-color:#125D53;width:15.5em;position:fixed;top:0;right:0;bottom:0;z-index:0;max-height:100vh;display:flex;overflow-y:auto;overflow-x:hidden;flex-direction:column}.nav-wrapper-inner ul{width:100%;line-height:4em}.nav-wrapper-inner ul li{width:100%;transition:background-color .3s linear;display:block;overflow:hidden}.nav-wrapper-inner ul li:hover{background-color:#277369}.nav-wrapper-inner #subNav1 a{padding-left:1em}.nav-wrapper-inner a{display:block;color:white;text-decoration:none;font-weight:bold;transition:.3s linear;text-align:left;font-size:1.5em;padding-left:.5em}.nav-wrapper-inner a:hover,.nav-wrapper-inner a.currentPage{color:#199D72}#wrapper{min-height:100%;min-width:100%;background-color:white;position:relative;top:0;bottom:100%;right:0;z-index:1;box-shadow:0 0 5px 5px rgba(0,0,0,0.5)}.fixed-mobile-nav{width:100%;height:6.2em;background-color:#125D53;box-shadow:0 0 5px 5px rgba(0,0,0,0.5);position:fixed;z-index:10;transition:.5s linear}.fixed-mobile-nav-content{position:absolute;top:0;height:4em;width:100%;background-color:#125D53;z-index:2;box-shadow:0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23)}.fixed-mobile-nav-accent{position:absolute;bottom:0;background-color:#676767;width:100%;height:2.2em;line-height:2em}.nav-trigger:checked ~ .fixed-mobile-nav{box-shadow:0 0 7px 7px rgba(0,0,0,0.4)}.navHome{margin-top:6.2em;width:100%}.nav-wrapper-outer img{position:fixed;left:.5em;top:.25em;z-index:12;height:3.5em}.mobile-nav-spacer{height:6.2em;width:100%}#pgTitleD{display:none}#pgTitleM{color:#C5C5C4;font-size:1.2em;text-align:center;padding:0;margin:0}.clear-menu-btn{position:fixed;right:.5em;top:.5em;z-index:12;width:3em;height:3em;margin:0 auto}.nav-trigger:hover{cursor:pointer}.nav-trigger:checked ~ .clear-menu-btn .top,.nav-trigger:checked ~ .clear-menu-btn .bottom{top:50%}.nav-trigger:checked ~ .clear-menu-btn .top{-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}.nav-trigger:checked ~ .clear-menu-btn .bottom{-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg)}.nav-trigger:checked ~ .clear-menu-btn .middle{filter:alpha(opacity=0);opacity:0}.nav-trigger:checked ~ .clear-menu-btn .circle{filter:alpha(opacity=100);opacity:1}.clear-menu-btn span{position:absolute;display:block;width:1.5em;height:.2em;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;-ms-transition:all 0.3s;-o-transition:all 0.3s;transition:all 0.3s;z-index:-1}.clear-menu-btn .top{top:35%;margin-left:.75em;background-color:#5BBF9E;z-index:1}.clear-menu-btn .middle{top:50%;margin-left:.75em;background-color:#5BBF9E;z-index:1}.clear-menu-btn .bottom{top:65%;margin-left:.75em;background-color:#5BBF9E;z-index:1}.clear-menu-btn .circle{display:block;position:absolute;top:52%;left:50%;-webkit-transform:translate(-50%, -50%);-moz-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);-o-transform:translate(-50%, -50%);transform:translate(-50%, -50%);width:2.5em;height:2.5em;background-color:transparent;border:0.2em solid #199D72;-webkit-transition:all 0.5s;-moz-transition:all 0.5s;-ms-transition:all 0.5s;-o-transition:all 0.5s;transition:all 0.5s;z-index:-1}.nav-trigger{position:fixed;z-index:13;top:.5em;right:.5em;height:3.5em;width:3.5em;filter:alpha(opacity=0);opacity:0}#wrapper{transition:right .5s}.nav-trigger:checked ~ #wrapper{right:15.5em}body{overflow-x:hidden}#resourceDropdown{position:relative}#resourceDropdown input,#resourceDropdown>img{position:absolute;right:1em;left:initial;cursor:pointer}#resourceDropdown input{filter:alpha(opacity=0);opacity:0;top:1em;width:3em;height:3em;z-index:15}#resourceDropdown input:checked ~ img{transform:rotate(180deg)}#resourceDropdown>img{transition:.5s linear;top:1em;width:2em;height:2em}#resourceDropdown #subNav1{max-height:0;-webkit-transition:all 0.5s ease-in-out;-moz-transition:all 0.5s ease-in-out;-o-transition:all 0.5s ease-in-out;-ms-transition:all 0.5s ease-in-out;transition:all 0.5s ease-in-out}#resourceDropdown input:checked ~ #subNav1{max-height:15em}}.blinking-cursor:after{content:"_"}.blinking-cursor{font-weight:bold;font-size:30px;color:#C5C5C4;-webkit-animation:1s blink step-end infinite;-moz-animation:1s blink step-end infinite;-ms-animation:1s blink step-end infinite;-o-animation:1s blink step-end infinite;animation:1s blink step-end infinite}@keyframes "blink"{from,to{color:transparent}50%{color:#C5C5C4}}@-moz-keyframes "blink"{from,to{color:transparent}50%{color:#C5C5C4}}@-webkit-keyframes "blink"{from,to{color:transparent}50%{color:#C5C5C4}}@-ms-keyframes "blink"{from,to{color:transparent}50%{color:#C5C5C4}}@-o-keyframes "blink"{from,to{color:transparent}50%{color:#C5C5C4}}footer *{margin:0;padding:0}.footer-accent{background-color:#676767;width:100%;height:30%}.MUGG{margin:0;padding:0;color:#C5C5C4;text-align:center;height:100%;line-height:1.4em;white-space:nowrap}.footer-wrapper{height:70%;width:100%;box-shadow:0 -10px 20px rgba(0,0,0,0.19),0 -6px 6px rgba(0,0,0,0.23)}.footer-connect{height:30%}.footer-connect h2{text-align:center;padding-top:.4em;margin:0;color:white}@media only screen and (min-width: 1001px){.footer-social{height:70%;width:80%}.footer-social img{height:70%}}@media only screen and (max-width: 1000px){.footer-social{height:60%;width:95%}.footer-social img{height:75%}}.footer-social{margin:auto;text-align:justify}.footer-social img{display:inline-block;vertical-align:top;*display:inline;zoom:1}.footer-social:after{content:"";width:100%;display:inline-block}.footer-social img{position:relative;top:50%;transform:translateY(-50%)}.footer-social img{opacity:1;transition:visibility 0s .25s, opacity .25s linear}.footer-social:hover img{opacity:0.2;transition:opacity .25s linear}.footer-social:hover img:hover{opacity:1;transition:visibility 0s .25s, opacity .25s linear}#wrapper{min-height:100vh;position:relative}#content{padding-bottom:10em}footer{background:#125D53;width:100%;height:10em;position:absolute;bottom:0;left:0}#bduke{position:absolute;padding-top:0;padding-bottom:0;padding-left:.5em;padding-right:.5em;margin:0;bottom:0;right:0}#bduke a{font-size:1em;text-decoration:none;transition:.25s linear;color:white}#bduke a:hover{color:#199D72}.seperator{width:100%;height:1em}#mainHome h1,#mainHome h2,#mainHome p{text-align:center}#mainHome blockquote{text-align:center;font-size:1.5em}@media only screen and (min-width: 1001px){#calendarWrapper{width:80%}}@media only screen and (max-width: 1000px){#calendarWrapper{width:100%}}#calendar{width:100%;height:100%;margin:0 auto}#calendarWrapper{height:30em;margin:2em auto 2em auto}#mainAbout .officer{width:100%;margin-bottom:1em;display:flex;align-items:center}#mainAbout .officerDesc p:nth-child(2){text-align:justify}#mainAbout #valuesParagraph{text-align:justify}#mainAbout .officerTitle{color:#199D72}#mainAbout h1,#mainAbout h2,#mainAbout h3,#mainAbout h4,#mainAbout p{text-align:center}@media only screen and (min-width: 1001px){#mainAbout .values{margin-left:1em;margin-right:1em}#mainAbout .officerPic{width:30%;padding-right:2%;display:inline}#mainAbout .officerDesc{float:right;width:68%}#mainAbout .officerTitleM{display:none}}@media only screen and (max-width: 1000px){#mainAbout .values{display:block}#mainAbout .officer{flex-direction:column}#mainAbout .officerTitleM{order:1}#mainAbout .officerPic{order:2;width:70%}#mainAbout .officerDesc{order:3;width:100%}#mainAbout .officerTitleD{display:none}}.resourcesNav{width:100%;border-collapse:collapse;background-image:url(../contents/webImages/blur.png)}.resourcesNav tr{border-spacing:5em}.resourcesNav tr td{border-bottom:0.2em solid #125D53;overflow:hidden}.resourcesNav tr td:last-child{border-bottom:none}.resourcesNav tr td{display:block}@media only screen and (min-width: 1001px){.resourcePages{margin-top:5em}#mainResources .resourcesAccordion,#mainReference .resourcesAccordion{width:70%}.resourcesAccordion,.pageJumpAccordion{min-width:35%;max-width:100%;position:absolute}.resourcesAccordion{top:0;left:15%}.pageJumpAccordion{top:0;right:15%}}#ac-0,#ac-1{display:none}#resourceJump{width:100%}#resourceJump td{overflow:hidden}.resourcesAccordion label h3,.pageJumpAccordion label h3{float:left}.resourcesAccordion .article,.pageJumpAccordion .article{overflow:hidden;max-height:0px}.resourcesAccordion input:checked ~ .article.ac-small,.pageJumpAccordion input:checked ~ .article.ac-small{max-height:45em}#resourcesDown0,#resourcesDown1{float:right;width:3em;cursor:pointer;margin:-5em;padding:5em;transform:rotate(0deg);transition:.2s linear}.resourcesAccordion input:checked ~ label #resourceJump tr td #resourcesDown0,.pageJumpAccordion input:checked ~ label #resourceJump tr td #resourcesDown1{transform:rotate(180deg)}.resourcesAccordion input:checked ~ .article,.pageJumpAccordion input:checked ~ .article{-webkit-transition:all 0.5s ease-in-out;-moz-transition:all 0.5s ease-in-out;-o-transition:all 0.5s ease-in-out;-ms-transition:all 0.5s ease-in-out;transition:all 0.5s ease-in-out}.resourcesAccordion .article,.pageJumpAccordion .article{-webkit-transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;-o-transition:all 0.3s ease-in-out;-ms-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out}.resourcesNav tr td h3 a{text-decoration:none;margin:-8em;padding:8em}.resourcesNav tr td h3{text-align:center}#resourcesNavWrapper a.currentPage{color:#199D72}.bookRadio{display:none}#mainLibrary h1,#mainLibrary h3{text-align:center}#coversContainer{text-align:center}#mainLibrary .cover{display:inline}#mainLibrary .books img{margin-left:1em;margin-top:1em;margin-bottom:1em;margin-right:1em;display:inline;border:1px solid black}#mainLibrary .cover img{margin-left:1em;margin-top:1em;margin-bottom:1em;margin-right:1em;height:18em}#mainLibrary .books{text-align:center}@media only screen and (min-width: 1001px){#mainLibrary .books img{height:18em}}@media only screen and (max-width: 1000px){#mainLibrary .books img{height:14em}}#mainLibrary .books{overflow-y:auto;margin-bottom:1em}#mainLibrary .books img:hover{box-shadow:0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23)}.cover{width:40%}.overlay{position:fixed;top:0;bottom:0;left:0;right:0;background:rgba(0,0,0,0.7);transition:opacity 500ms;visibility:hidden;opacity:0;display:flex;align-items:center;justify-content:center}.bookLabel{cursor:pointer}.popup{background:#fff;border-radius:5px;width:80%;position:relative;transition:all 1s ease-in-out;max-height:100vh}.popup h2{margin-top:0;padding-top:.5em;text-align:center}.popup .close{position:absolute;transition:all 200ms;font-size:2em;font-weight:bold;text-decoration:none;color:#2F2F2F}.popup .close:hover{color:#199D72}.popup .books{max-height:80vh}@media only screen and (min-width: 1001px){.popup .close{top:20px;right:30px}}@media screen and (max-width: 1000px){.cover{width:80%}.popup{width:80%}.popup .close{top:40px;right:30px}.noNAV:checked ~ .fixed-mobile-nav,.noNAV:checked ~ #menu,.noNAV:checked ~ nav{visibility:hidden;opacity:0;transition:.25s ease-in-out}.nav-trigger:checked ~ #wrapper>#content>#mainLibrary>#coversContainer>.cover>.bookLabel{pointer-events:none}.noNAV:checked ~ #nav-trigger{display:none}}html,body{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}@font-face{font-family:timeburner;src:url(timeburner.ttf)}#cssSlider>input{display:none}#cssSlider>#pageNav{position:absolute;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);z-index:15;width:100%;height:10vw}#cssSlider>#pageNav>#previousArrow>.slideL,#cssSlider>#pageNav>#playPause>.playPauseBtn,#cssSlider>#pageNav>#nextArrow>.slideR{position:absolute;opacity:0;cursor:pointer;-webkit-transition:opacity .5s ease-in-out;transition:opacity .5s ease-in-out}#cssSlider>#pageNav>#previousArrow>.slideL{width:10vw;height:10vw;background:url("icons/previous.png");background-image:url("icons/previous.svg"),none;background-repeat:no-repeat;background-size:100%;z-index:-1}#cssSlider>#pageNav>#nextArrow>.slideR{width:10vw;height:10vw;background:url("icons/next.png");background-image:url("icons/next.svg"),none;background-repeat:no-repeat;background-size:100%;z-index:-1}#cssSlider>#pageNav>#playPause>#playBtn{width:10vw;height:10vw;background:url("icons/play.png");background-image:url("icons/play.svg"),none;background-repeat:no-repeat;background-size:100%}#cssSlider>#pageNav>#playPause>#pauseBtn{width:10vw;height:10vw;background:url("icons/pause.png");background-image:url("icons/pause.svg"),none;background-repeat:no-repeat;background-size:100%}#cssSlider>#pageNav>#previousArrow>.slideL{left:2vw}#cssSlider>#pageNav>#playPause>.playPauseBtn{left:50%;margin:0 0 0 -5vw}#cssSlider>#pageNav>#nextArrow>.slideR{right:2vw}#cssSlider>#pageNav:hover>#previousArrow>.slideL,#cssSlider>#pageNav:hover>#playPause>.playPauseBtn,#cssSlider>#pageNav:hover>#nextArrow>.slideR,#cssSlider #sliderImages:hover ~ #pageNav #previousArrow .slideL,#cssSlider>#sliderImages:hover ~ #pageNav>#playPause>.playPauseBtn,#cssSlider>#sliderImages:hover ~ #pageNav>#nextArrow>.slideR{opacity:1}#cssSlider>#play:not(:checked) ~ #pageNav>#playPause>#pauseBtn{display:none}#cssSlider>#play:checked ~ #pageNav>#playPause>#playBtn{display:none}#cssSlider>#slide1:checked ~ #pageNav>#previousArrow>#slideL6,#cssSlider>#slide1:checked ~ #pageNav>#nextArrow>#slideR2,#cssSlider>#slide2:checked ~ #pageNav>#previousArrow>#slideL1,#cssSlider>#slide2:checked ~ #pageNav>#nextArrow>#slideR3,#cssSlider>#slide3:checked ~ #pageNav>#previousArrow>#slideL2,#cssSlider>#slide3:checked ~ #pageNav>#nextArrow>#slideR4,#cssSlider>#slide4:checked ~ #pageNav>#previousArrow>#slideL3,#cssSlider>#slide4:checked ~ #pageNav>#nextArrow>#slideR5,#cssSlider>#slide5:checked ~ #pageNav>#previousArrow>#slideL4,#cssSlider>#slide5:checked ~ #pageNav>#nextArrow>#slideR6,#cssSlider>#slide6:checked ~ #pageNav>#previousArrow>#slideL5,#cssSlider>#slide6:checked ~ #pageNav>#nextArrow>#slideR1{z-index:15}#cssSlider>#play:checked ~ #pageNav>#previousArrow>#slideL6,#cssSlider>#play:checked ~ #pageNav>#nextArrow>#slideR2,#cssSlider>#pause:checked ~ #pageNav>#previousArrow>#slideL6,#cssSlider>#pause:checked ~ #pageNav>#nextArrow>#slideR2{-webkit-animation:arrows 40000ms infinite 0ms;animation:arrows 40000ms infinite 0ms}#cssSlider>#play:checked ~ #pageNav>#previousArrow>#slideL1,#cssSlider>#play:checked ~ #pageNav>#nextArrow>#slideR3,#cssSlider>#pause:checked ~ #pageNav>#previousArrow>#slideL1,#cssSlider>#pause:checked ~ #pageNav>#nextArrow>#slideR3{-webkit-animation:arrows 40000ms infinite 6666.6666666667ms;animation:arrows 40000ms infinite 6666.6666666667ms}#cssSlider>#play:checked ~ #pageNav>#previousArrow>#slideL2,#cssSlider>#play:checked ~ #pageNav>#nextArrow>#slideR4,#cssSlider>#pause:checked ~ #pageNav>#previousArrow>#slideL2,#cssSlider>#pause:checked ~ #pageNav>#nextArrow>#slideR4{-webkit-animation:arrows 40000ms infinite 13333.333333333ms;animation:arrows 40000ms infinite 13333.333333333ms}#cssSlider>#play:checked ~ #pageNav>#previousArrow>#slideL3,#cssSlider>#play:checked ~ #pageNav>#nextArrow>#slideR5,#cssSlider>#pause:checked ~ #pageNav>#previousArrow>#slideL3,#cssSlider>#pause:checked ~ #pageNav>#nextArrow>#slideR5{-webkit-animation:arrows 40000ms infinite 20000ms;animation:arrows 40000ms infinite 20000ms}#cssSlider>#play:checked ~ #pageNav>#previousArrow>#slideL4,#cssSlider>#play:checked ~ #pageNav>#nextArrow>#slideR6,#cssSlider>#pause:checked ~ #pageNav>#previousArrow>#slideL4,#cssSlider>#pause:checked ~ #pageNav>#nextArrow>#slideR6{-webkit-animation:arrows 40000ms infinite 26666.666666666ms;animation:arrows 40000ms infinite 26666.666666666ms}#cssSlider>#play:checked ~ #pageNav>#previousArrow>#slideL5,#cssSlider>#play:checked ~ #pageNav>#nextArrow>#slideR1,#cssSlider>#pause:checked ~ #pageNav>#previousArrow>#slideL5,#cssSlider>#pause:checked ~ #pageNav>#nextArrow>#slideR1{-webkit-animation:arrows 40000ms infinite 33333.333333333ms;animation:arrows 40000ms infinite 33333.333333333ms}#cssSlider>#pageIndicators{position:absolute;bottom:0;text-align:center;width:100%;z-index:15}#cssSlider>#pageIndicators>.indicator{display:inline-block;height:1.5em;width:1.5em;border-radius:100%;background-color:#ABB7B7;cursor:pointer}#cssSlider>#pageIndicators>.indicator>.hoverPoint{margin:.5em;display:inline-block;height:.5em;width:.5em;border-radius:100%;background:transparent;transition:.3s ease-in-out;-webkit-transition:.3s ease-in-out;z-index:16}#cssSlider>#pageIndicators>.indicator>.hoverPoint>.point{margin-bottom:.5em;display:inline-block;height:.5em;width:.5em;border-radius:100%;background:transparent;transition:.3s ease-in-out;-webkit-transition:.3s ease-in-out}#cssSlider>#play:checked ~ #pageIndicators>.indicator>.hoverPoint>#point1,#cssSlider>#pause:checked ~ #pageIndicators>.indicator>.hoverPoint>#point1{-webkit-animation:point 40000ms infinite 0ms;animation:point 40000ms infinite 0ms}#cssSlider>#play:checked ~ #pageIndicators>.indicator>.hoverPoint>#point2,#cssSlider>#pause:checked ~ #pageIndicators>.indicator>.hoverPoint>#point2{-webkit-animation:point 40000ms infinite 6666.6666666667ms;animation:point 40000ms infinite 6666.6666666667ms}#cssSlider>#play:checked ~ #pageIndicators>.indicator>.hoverPoint>#point3,#cssSlider>#pause:checked ~ #pageIndicators>.indicator>.hoverPoint>#point3{-webkit-animation:point 40000ms infinite 13333.333333333ms;animation:point 40000ms infinite 13333.333333333ms}#cssSlider>#play:checked ~ #pageIndicators>.indicator>.hoverPoint>#point4,#cssSlider>#pause:checked ~ #pageIndicators>.indicator>.hoverPoint>#point4{-webkit-animation:point 40000ms infinite 20000ms;animation:point 40000ms infinite 20000ms}#cssSlider>#play:checked ~ #pageIndicators>.indicator>.hoverPoint>#point5,#cssSlider>#pause:checked ~ #pageIndicators>.indicator>.hoverPoint>#point5{-webkit-animation:point 40000ms infinite 26666.666666666ms;animation:point 40000ms infinite 26666.666666666ms}#cssSlider>#play:checked ~ #pageIndicators>.indicator>.hoverPoint>#point6,#cssSlider>#pause:checked ~ #pageIndicators>.indicator>.hoverPoint>#point6{-webkit-animation:point 40000ms infinite 33333.333333333ms;animation:point 40000ms infinite 33333.333333333ms}#cssSlider>#slide1:checked ~ #pageIndicators>.indicator>.hoverPoint>#point1,#cssSlider>#slide2:checked ~ #pageIndicators>.indicator>.hoverPoint>#point2,#cssSlider>#slide3:checked ~ #pageIndicators>.indicator>.hoverPoint>#point3,#cssSlider>#slide4:checked ~ #pageIndicators>.indicator>.hoverPoint>#point4,#cssSlider>#slide5:checked ~ #pageIndicators>.indicator>.hoverPoint>#point5,#cssSlider>#slide6:checked ~ #pageIndicators>.indicator>.hoverPoint>#point6{background:#F2F1EF}#cssSlider>#pageIndicators>.indicator:hover>.hoverPoint{background:#F2F1EF}#cssSlider{position:relative;overflow:hidden}#cssSlider{padding-bottom:43.95%;height:0}#cssSlider>#sliderImages>img,#cssSlider>#sliderImages>a>img{width:100vw;height:100%;float:left}#cssSlider>#sliderImages{position:absolute;left:0;width:600vw;-webkit-animation-name:slider;-webkit-animation-duration:40s;-webkit-animation-timing-function:ease-in-out;-webkit-animation-iteration-count:infinite;animation-name:slider;animation-duration:40s;animation-timing-function:ease-in-out;animation-iteration-count:infinite;transition:2.66666666667s}#cssSlider>#slideDesc>.slideText{position:absolute;bottom:0;padding:.6em;margin:2em;background-color:#ABB7B7;border-radius:.5em;z-index:-1;opacity:0;-webkit-transform:translateY(-100px);transform:translateY(-100px);-webkit-transition:950ms opacity 850ms cubic-bezier(0.68, -0.55, 0.265, 1.55),950ms -webkit-transform 850ms cubic-bezier(0.68, -0.55, 0.265, 1.55),950ms visibility 850ms cubic-bezier(0.68, -0.55, 0.265, 1.55);transition:950ms opacity 850ms cubic-bezier(0.68, -0.55, 0.265, 1.55),950ms -webkit-transform 850ms cubic-bezier(0.68, -0.55, 0.265, 1.55),950ms transform 850ms cubic-bezier(0.68, -0.55, 0.265, 1.55),950ms visibility 850ms cubic-bezier(0.68, -0.55, 0.265, 1.55)}#cssSlider>#slideDesc>.slideText>p{padding:.1em;margin:0;color:black;font-size:2em;font-family:timeburner}#cssSlider>#slide1:checked ~ #slideDesc>#slideText1,#cssSlider>#slide2:checked ~ #slideDesc>#slideText2,#cssSlider>#slide3:checked ~ #slideDesc>#slideText3,#cssSlider>#slide4:checked ~ #slideDesc>#slideText4,#cssSlider>#slide5:checked ~ #slideDesc>#slideText5,#cssSlider>#slide6:checked ~ #slideDesc>#slideText6{z-index:2;opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}#cssSlider>#play:checked ~ #slideDesc>#slideText1,#cssSlider>#pause:checked ~ #slideDesc>#slideText1{-webkit-animation:textBoxBounce 40000ms infinite 0ms;animation:textBoxBounce 40000ms infinite 0ms}#cssSlider>#play:checked ~ #slideDesc>#slideText2,#cssSlider>#pause:checked ~ #slideDesc>#slideText2{-webkit-animation:textBoxBounce 40000ms infinite 6666.6666666667ms;animation:textBoxBounce 40000ms infinite 6666.6666666667ms}#cssSlider>#play:checked ~ #slideDesc>#slideText3,#cssSlider>#pause:checked ~ #slideDesc>#slideText3{-webkit-animation:textBoxBounce 40000ms infinite 13333.333333333ms;animation:textBoxBounce 40000ms infinite 13333.333333333ms}#cssSlider>#play:checked ~ #slideDesc>#slideText4,#cssSlider>#pause:checked ~ #slideDesc>#slideText4{-webkit-animation:textBoxBounce 40000ms infinite 20000ms;animation:textBoxBounce 40000ms infinite 20000ms}#cssSlider>#play:checked ~ #slideDesc>#slideText5,#cssSlider>#pause:checked ~ #slideDesc>#slideText5{-webkit-animation:textBoxBounce 40000ms infinite 26666.666666666ms;animation:textBoxBounce 40000ms infinite 26666.666666666ms}#cssSlider>#play:checked ~ #slideDesc>#slideText6,#cssSlider>#pause:checked ~ #slideDesc>#slideText6{-webkit-animation:textBoxBounce 40000ms infinite 33333.333333333ms;animation:textBoxBounce 40000ms infinite 33333.333333333ms}#cssSlider>#slide1:checked ~ #sliderImages{margin-left:0}#cssSlider>#slide2:checked ~ #sliderImages{margin-left:-100vw}#cssSlider>#slide3:checked ~ #sliderImages{margin-left:-200vw}#cssSlider>#slide4:checked ~ #sliderImages{margin-left:-300vw}#cssSlider>#slide5:checked ~ #sliderImages{margin-left:-400vw}#cssSlider>#slide6:checked ~ #sliderImages{margin-left:-500vw}#cssSlider>#slide1:checked ~ #sliderImages,#cssSlider>#slide2:checked ~ #sliderImages,#cssSlider>#slide3:checked ~ #sliderImages,#cssSlider>#slide4:checked ~ #sliderImages,#cssSlider>#slide5:checked ~ #sliderImages,#cssSlider>#slide6:checked ~ #sliderImages{-webkit-animation:none;animation:none}#cssSlider>#pause:checked ~ #sliderImages,#cssSlider>#pause:checked ~ #slideDesc>#slideText1,#cssSlider>#pause:checked ~ #slideDesc>#slideText2,#cssSlider>#pause:checked ~ #slideDesc>#slideText3,#cssSlider>#pause:checked ~ #slideDesc>#slideText4,#cssSlider>#pause:checked ~ #slideDesc>#slideText5,#cssSlider>#pause:checked ~ #slideDesc>#slideText6,#cssSlider>#pause:checked ~ #pageNav #previousArrow>#slideL6,#cssSlider>#pause:checked ~ #pageNav>#nextArrow>#slideR2,#cssSlider>#pause:checked ~ #pageNav>#previousArrow>#slideL1,#cssSlider>#pause:checked ~ #pageNav>#nextArrow>#slideR3,#cssSlider>#pause:checked ~ #pageNav>#previousArrow>#slideL2,#cssSlider>#pause:checked ~ #pageNav>#nextArrow>#slideR4,#cssSlider>#pause:checked ~ #pageNav>#previousArrow>#slideL3,#cssSlider>#pause:checked ~ #pageNav>#nextArrow>#slideR5,#cssSlider>#pause:checked ~ #pageNav>#previousArrow>#slideL4,#cssSlider>#pause:checked ~ #pageNav>#nextArrow>#slideR6,#cssSlider>#pause:checked ~ #pageNav>#previousArrow>#slideL5,#cssSlider>#pause:checked ~ #pageNav #nextArrow>#slideR1,#cssSlider>#pause:checked ~ #pageIndicators>.indicator>.hoverPoint>#point1,#cssSlider>#pause:checked ~ #pageIndicators>.indicator>.hoverPoint>#point2,#cssSlider>#pause:checked ~ #pageIndicators>.indicator>.hoverPoint>#point3,#cssSlider>#pause:checked ~ #pageIndicators>.indicator>.hoverPoint>#point4,#cssSlider>#pause:checked ~ #pageIndicators>.indicator>.hoverPoint>#point5,#cssSlider>#pause:checked ~ #pageIndicators>.indicator>.hoverPoint>#point6{-webkit-animation-play-state:paused;animation-play-state:paused}@-webkit-keyframes arrows{0%,16.656666666666666%{opacity:1;z-index:15}16.666666666666668%,100%{opacity:0;z-index:-1}}@keyframes arrows{0%,16.656666666666666%{z-index:15}16.666666666666668%,100%{z-index:-1}}@keyframes point{1%,16%{background:#F2F1EF}17%,100%{background:transparent}}@-webkit-keyframes point{0%,16%{background:#F2F1EF}17%,100%{background:transparent}}@keyframes slider{0%,10%{transform:translateX(0)}16.6666666667%,26.6666666667%{transform:translateX(-100vw)}33.3333333333%,43.3333333333%{transform:translateX(-200vw)}50%,60%{transform:translateX(-300vw)}66.6666666667%,76.6666666667%{transform:translateX(-400vw)}83.3333333333%,93.3333333333%{transform:translateX(-500vw)}100%{transform:translateX(0)}}@-webkit-keyframes slider{0%,10%{transform:translateX(0)}16.6666666667%,26.6666666667%{transform:translateX(-100vw)}33.3333333333%,43.3333333333%{transform:translateX(-200vw)}50%,60%{transform:translateX(-300vw)}66.6666666667%,76.6666666667%{transform:translateX(-400vw)}83.3333333333%,93.3333333333%{transform:translateX(-500vw)}100%{transform:translateX(0)}}@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){#sliderImages{-webkit-animation-name:slider-ie;-webkit-animation-duration:40s;-webkit-animation-timing-function:ease-in-out;-webkit-animation-iteration-count:infinite;animation-name:slider-ie;animation-duration:40s;animation-timing-function:ease-in-out;animation-iteration-count:infinite}}@keyframes slider-ie{0%,10%{margin-left:0}16.6666666667%,26.6666666667%{margin-left:-100vw}33.3333333333%,43.3333333333%{margin-left:-200vw}50%,60%{margin-left:-300vw}66.6666666667%,76.6666666667%{margin-left:-400vw}83.3333333333%,93.3333333333%{margin-left:-500vw}100%{margin-left:-.1vw}}@-webkit-keyframes slider-ie{0%,10%{margin-left:0}16.6666666667%,26.6666666667%{margin-left:-100vw}33.3333333333%,43.3333333333%{margin-left:-200vw}50%,60%{margin-left:-300vw}66.6666666667%,76.6666666667%{margin-left:-400vw}83.3333333333%,93.3333333333%{margin-left:-500vw}100%{margin-left:-.1vw}}@-webkit-keyframes textBoxBounce{0.6927083333333334%,15.963958333333334%{opacity:1;z-index:2;visibility:visible;-webkit-transform:translateY(10px);transform:translateY(10px)}0.9895833333333334%,15.667083333333334%{opacity:1;z-index:2;visibility:visible;-webkit-transform:translateY(0px);transform:translateY(0px)}17.65625%{opacity:0;z-index:2;visibility:hidden;-webkit-transform:translateY(-100px);transform:translateY(-100px)}17.66625%,100%{z-index:0}}@keyframes textBoxBounce{0.6927083333333334%,15.963958333333334%{opacity:1;z-index:2;visibility:visible;-webkit-transform:translateY(10px);transform:translateY(10px)}0.9895833333333334%,15.667083333333334%{opacity:1;z-index:2;visibility:visible;-webkit-transform:translateY(0px);transform:translateY(0px)}17.65625%{opacity:0;z-index:2;visibility:hidden;-webkit-transform:translateY(-100px);transform:translateY(-100px)}17.66625%,100%{z-index:0}}@media screen and (max-width: 1000px){#cssSlider>#slideDesc>.slideText,#cssSlider>#pageIndicators{display:none}}
+/**********BEGIN GLOBAKL CSS**********/
+/*CSS RESET*/
+/* line 3, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_base/_reset.scss */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/*FONT IMPORT*/
+@font-face {
+  font-family: Ubuntu-Regular;
+  src: url(Ubuntu-Regular.ttf);
+}
+
+/*FONT*/
+/* line 11, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_base/_typography.scss */
+* {
+  font-family: 'Ubuntu-Regular';
+  color: #2F2F2F;
+}
+
+/*TEXT*/
+/* line 19, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_base/_typography.scss */
+main h1 {
+  font-size: 2em;
+}
+
+/* line 23, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_base/_typography.scss */
+main h2 {
+  font-size: 1.8em;
+}
+
+/* line 27, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_base/_typography.scss */
+main h3 {
+  font-size: 1.7em;
+}
+
+/* line 31, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_base/_typography.scss */
+main h4 {
+  font-size: 1.6em;
+}
+
+/* line 35, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_base/_typography.scss */
+main p,
+main ul > li {
+  font-size: 1.5em;
+}
+
+/*SCREEN SIZE:WIDE SCREEN*/
+@media only screen and (min-width: 1001px) {
+  /* line 4, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_layout/_screenSize.scss */
+  main {
+    width: 70%;
+  }
+}
+
+/*SCREEN SIZE:NARROW SCREEN*/
+@media only screen and (max-width: 1000px) {
+  /* line 13, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_layout/_screenSize.scss */
+  main {
+    width: 90%;
+  }
+}
+
+/* line 18, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_layout/_screenSize.scss */
+main {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*LINK COLOR*/
+/* line 3, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_links.scss */
+#content a {
+  transition: .25s linear;
+}
+
+/* line 7, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_links.scss */
+#content a:hover {
+  color: #199D72;
+}
+
+/*NAV:WIDE SCREEN*/
+@media only screen and (min-width: 1001px) {
+  /*main nav styling and positioning*/
+  /* line 5, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  nav * {
+    padding: 0;
+    margin: 0;
+  }
+  /* line 9, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  nav {
+    position: relative;
+    height: 7.2em;
+    width: 100%;
+    background-color: #125D53;
+  }
+  /* line 15, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-wrapper-outer {
+    position: absolute;
+    display: block;
+    z-index: 2;
+    width: 100%;
+    height: 5em;
+    line-height: 5em;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+  /* line 24, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-wrapper-inner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+  }
+  /* line 30, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .navAccent {
+    position: absolute;
+    bottom: 0;
+    background-color: #676767;
+    width: 100%;
+    height: 2.2em;
+    line-height: 2em;
+  }
+  /*items styling and positioning*/
+  /* line 39, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-wrapper-inner ul {
+    height: 100%;
+    list-style: none;
+    z-index: 2;
+  }
+  /* line 44, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-wrapper-inner > ul {
+    padding-right: 2.5em;
+  }
+  /* line 47, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-wrapper-inner ul li {
+    height: 100%;
+    position: relative;
+    float: left;
+    transition: background-color .3s linear;
+  }
+  /* line 53, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-wrapper-inner ul li:hover {
+    background: #277369 !important;
+  }
+  /* line 56, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-wrapper-inner ul li a:hover,
+  .nav-wrapper-inner a.currentPage {
+    color: #199D72 !important;
+  }
+  /*DROPDOWN SUBNAV*/
+  /* line 61, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  #resourceDropdown {
+    width: 10em;
+  }
+  /* line 64, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  #subNav1 {
+    width: 10em;
+    background-color: #125D53;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    /*Why did i do this?*/
+    top: 0;
+    visibility: hidden;
+    z-index: 1;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+  }
+  /* line 77, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  #subNav1 li {
+    background-color: #125D53;
+    width: 10em;
+  }
+  /* line 82, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  #resourceDropdown:hover > #subNav1 {
+    opacity: 1;
+    top: 5em;
+    visibility: visible;
+    height: initial !important;
+  }
+  /* line 88, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  #subNav1 li a {
+    width: 10em;
+    height: initial;
+  }
+  /* Clearfix - self center its children suppoedly TEST THE NEED OF THIS
+    .nav-wrapper-inner> ul:after,
+    .nav-wrapper-inner> ul:before {
+        content: "";
+        display: table;
+    }
+    .nav-wrapper-inner> ul:after {
+        clear: both;
+    }
+    /*TEXT*/
+  /* line 102, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-wrapper-inner a {
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color .3s;
+    letter-spacing: .1em;
+    padding: 0 .8em;
+  }
+  /* line 112, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  #subNav1 a {
+    text-align: center;
+    height: 4em !important;
+    line-height: 4em !important;
+    padding-top: 0 !important;
+    width: initial !important;
+  }
+  /*PG TITLE*/
+  /* line 120, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  #pgTitleD {
+    color: #C5C5C4;
+    text-align: center;
+    white-space: nowrap;
+  }
+  /*IMAGE*/
+  /* line 126, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  nav img {
+    position: absolute;
+    left: 2.5em;
+    height: 4em;
+    height: 4em;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  /*MOBILE NAV*/
+  /* line 135, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  #nav-trigger {
+    display: none;
+  }
+  /* line 138, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .fixed-mobile-nav {
+    display: none;
+  }
+  /* line 141, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .clear-menu-btn {
+    display: none;
+  }
+  /* line 144, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .navHome {
+    display: none;
+  }
+  /* line 147, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  #resourceDropdown input,
+  #resourceDropdown > img {
+    display: none;
+  }
+}
+
+/*NAV:NARROW SCREEN*/
+@media only screen and (max-width: 1000px) {
+  /* line 157, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  nav * {
+    padding: 0;
+    margin: 0;
+  }
+  /* Navigation Menu - Background */
+  /* line 162, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-wrapper-inner {
+    background-color: #125D53;
+    /* critical sizing and position styles */
+    width: 15.5em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    /*for scrolling*/
+    max-height: 100vh;
+    display: flex;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-direction: column;
+  }
+  /* Navigation Menu - List items */
+  /* line 179, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-wrapper-inner ul {
+    width: 100%;
+    line-height: 4em;
+  }
+  /* line 183, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-wrapper-inner ul li {
+    /* non-critical appearance styles */
+    width: 100%;
+    transition: background-color .3s linear;
+    display: block;
+    overflow: hidden;
+  }
+  /* line 190, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-wrapper-inner ul li:hover {
+    background-color: #277369;
+  }
+  /* line 193, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-wrapper-inner #subNav1 a {
+    padding-left: 1em;
+  }
+  /* line 196, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-wrapper-inner a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .3s linear;
+    text-align: left;
+    font-size: 1.5em;
+    padding-left: .5em;
+  }
+  /* line 206, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-wrapper-inner a:hover,
+  .nav-wrapper-inner a.currentPage {
+    color: #199D72;
+  }
+  /* Site Wrapper - Everything that isn't navigation */
+  /* line 211, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  #wrapper {
+    /* Critical position and size styles */
+    min-height: 100%;
+    min-width: 100%;
+    background-color: white;
+    /* Needs a background or else the nav will show through */
+    position: relative;
+    top: 0;
+    bottom: 100%;
+    right: 0;
+    z-index: 1;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+  }
+  /*following header*/
+  /* line 225, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .fixed-mobile-nav {
+    width: 100%;
+    height: 6.2em;
+    background-color: #125D53;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 10;
+    transition: .5s linear;
+  }
+  /* line 234, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .fixed-mobile-nav-content {
+    position: absolute;
+    top: 0;
+    height: 4em;
+    width: 100%;
+    background-color: #125D53;
+    z-index: 2;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+  /* line 243, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .fixed-mobile-nav-accent {
+    position: absolute;
+    bottom: 0;
+    background-color: #676767;
+    width: 100%;
+    height: 2.2em;
+    line-height: 2em;
+  }
+  /* line 251, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-trigger:checked ~ .fixed-mobile-nav {
+    box-shadow: 0 0 7px 7px rgba(0, 0, 0, 0.4);
+  }
+  /*space for mobile nav*/
+  /* line 255, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .navHome {
+    margin-top: 6.2em;
+    width: 100%;
+  }
+  /* line 259, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-wrapper-outer img {
+    position: fixed;
+    left: .5em;
+    top: .25em;
+    z-index: 12;
+    height: 3.5em;
+  }
+  /* line 266, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .mobile-nav-spacer {
+    height: 6.2em;
+    width: 100%;
+  }
+  /*page titles d=wide, m=narrow*/
+  /* line 271, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  #pgTitleD {
+    display: none;
+  }
+  /* line 274, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  #pgTitleM {
+    color: #C5C5C4;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  /* Pure CSS3 Hamburger*/
+  /* line 282, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .clear-menu-btn {
+    position: fixed;
+    right: .5em;
+    top: .5em;
+    z-index: 12;
+    width: 3em;
+    height: 3em;
+    margin: 0 auto;
+  }
+  /* line 291, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-trigger:hover {
+    cursor: pointer;
+  }
+  /* line 294, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-trigger:checked ~ .clear-menu-btn .top,
+  .nav-trigger:checked ~ .clear-menu-btn .bottom {
+    top: 50%;
+  }
+  /* line 298, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-trigger:checked ~ .clear-menu-btn .top {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  /* line 305, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-trigger:checked ~ .clear-menu-btn .bottom {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  /* line 312, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-trigger:checked ~ .clear-menu-btn .middle {
+    filter: alpha(opacity=0);
+    opacity: 0;
+  }
+  /* line 316, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-trigger:checked ~ .clear-menu-btn .circle {
+    filter: alpha(opacity=100);
+    opacity: 1;
+  }
+  /* line 320, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .clear-menu-btn span {
+    position: absolute;
+    display: block;
+    width: 1.5em;
+    height: .2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    z-index: -1;
+  }
+  /* line 332, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .clear-menu-btn .top {
+    top: 35%;
+    margin-left: .75em;
+    background-color: #5BBF9E;
+    z-index: 1;
+  }
+  /* line 338, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .clear-menu-btn .middle {
+    top: 50%;
+    margin-left: .75em;
+    background-color: #5BBF9E;
+    z-index: 1;
+  }
+  /* line 344, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .clear-menu-btn .bottom {
+    top: 65%;
+    margin-left: .75em;
+    background-color: #5BBF9E;
+    z-index: 1;
+  }
+  /* line 350, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .clear-menu-btn .circle {
+    display: block;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 2.5em;
+    height: 2.5em;
+    background-color: transparent;
+    border: 0.2em solid #199D72;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: -1;
+  }
+  /* Nav Trigger */
+  /* line 372, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-trigger {
+    /* critical styles - hide the checkbox input*/
+    position: fixed;
+    z-index: 13;
+    top: .5em;
+    right: .5em;
+    height: 3.5em;
+    width: 3.5em;
+    filter: alpha(opacity=0);
+    opacity: 0;
+  }
+  /* Make the Magic Happen */
+  /* line 384, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  #wrapper {
+    transition: right .5s;
+  }
+  /* line 387, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  .nav-trigger:checked ~ #wrapper {
+    /*The window*/
+    right: 15.5em;
+  }
+  /* Without this, the body has excess horizontal scroll when the menu is open */
+  /* line 392, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  body {
+    overflow-x: hidden;
+  }
+  /* line 395, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  #resourceDropdown {
+    position: relative;
+  }
+  /* line 398, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  #resourceDropdown input,
+  #resourceDropdown > img {
+    position: absolute;
+    right: 1em;
+    left: initial;
+    cursor: pointer;
+  }
+  /* line 405, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  #resourceDropdown input {
+    filter: alpha(opacity=0);
+    opacity: 0;
+    top: 1em;
+    width: 3em;
+    height: 3em;
+    z-index: 15;
+  }
+  /* line 413, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  #resourceDropdown input:checked ~ img {
+    transform: rotate(180deg);
+  }
+  /* line 416, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  #resourceDropdown > img {
+    transition: .5s linear;
+    top: 1em;
+    width: 2em;
+    height: 2em;
+  }
+  /* line 422, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  #resourceDropdown #subNav1 {
+    max-height: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  /* line 430, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  #resourceDropdown input:checked ~ #subNav1 {
+    max-height: 15em;
+  }
+}
+
+/*BLINKING CURSOR*/
+/* line 438, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+.blinking-cursor:after {
+  content: "_";
+}
+
+/* line 442, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+.blinking-cursor {
+  font-weight: bold;
+  font-size: 30px;
+  color: #C5C5C4;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #C5C5C4;
+  }
+}
+
+@-moz-keyframes "blink" {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #C5C5C4;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #C5C5C4;
+  }
+}
+
+@-ms-keyframes "blink" {
+  /* line 484, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  from,
+  to {
+    color: transparent;
+  }
+  /* line 488, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_navigation.scss */
+  50% {
+    color: #C5C5C4;
+  }
+}
+
+@-o-keyframes "blink" {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #C5C5C4;
+  }
+}
+
+/*FOOTER*/
+/* line 3, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_footer.scss */
+footer * {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_footer.scss */
+.footer-accent {
+  background-color: #676767;
+  width: 100%;
+  height: 30%;
+}
+
+/* line 14, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_footer.scss */
+.MUGG {
+  margin: 0;
+  padding: 0;
+  color: #C5C5C4;
+  text-align: center;
+  height: 100%;
+  line-height: 1.4em;
+  white-space: nowrap;
+}
+
+/*FOOTER CONTENT*/
+/* line 27, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_footer.scss */
+.footer-wrapper {
+  height: 70%;
+  width: 100%;
+  box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.19), 0 -6px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* line 33, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_footer.scss */
+.footer-connect {
+  height: 30%;
+}
+
+/* line 37, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_footer.scss */
+.footer-connect h2 {
+  text-align: center;
+  padding-top: .4em;
+  margin: 0;
+  color: white;
+}
+
+/*FOOTER SOCIAL ICONS:WIDE SCREEN*/
+@media only screen and (min-width: 1001px) {
+  /* line 48, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_footer.scss */
+  .footer-social {
+    height: 70%;
+    width: 80%;
+  }
+  /* line 52, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_footer.scss */
+  .footer-social img {
+    height: 70%;
+  }
+}
+
+/*FOOTER SOCIAL ICONS:NARROW SCREEN*/
+@media only screen and (max-width: 1000px) {
+  /* line 61, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_footer.scss */
+  .footer-social {
+    height: 60%;
+    width: 95%;
+  }
+  /* line 65, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_footer.scss */
+  .footer-social img {
+    height: 75%;
+  }
+}
+
+/* line 70, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_footer.scss */
+.footer-social {
+  margin: auto;
+  text-align: justify;
+}
+
+/* line 75, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_footer.scss */
+.footer-social img {
+  display: inline-block;
+  vertical-align: top;
+  /* IE fix. */
+  *display: inline;
+  zoom: 1;
+}
+
+/* line 83, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_footer.scss */
+.footer-social:after {
+  content: "";
+  width: 100%;
+  display: inline-block;
+}
+
+/* line 89, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_footer.scss */
+.footer-social img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 95, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_footer.scss */
+.footer-social img {
+  opacity: 1;
+  transition: visibility 0s .25s, opacity .25s linear;
+}
+
+/* line 100, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_footer.scss */
+.footer-social:hover img {
+  opacity: 0.2;
+  transition: opacity .25s linear;
+}
+
+/* line 105, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_footer.scss */
+.footer-social:hover img:hover {
+  opacity: 1;
+  transition: visibility 0s .25s, opacity .25s linear;
+}
+
+/*FOOTER> KEEP AT BOTTOM*/
+/* line 113, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_footer.scss */
+#wrapper {
+  min-height: 100vh;
+  position: relative;
+}
+
+/* line 118, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_footer.scss */
+#content {
+  padding-bottom: 10em;
+  /* Height of the footer element */
+}
+
+/* line 123, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_components/_footer.scss */
+footer {
+  background: #125D53;
+  width: 100%;
+  height: 10em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/*bduke site*/
+/* line 3, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_bduke.scss */
+#bduke {
+  position: absolute;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: .5em;
+  padding-right: .5em;
+  margin: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 14, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_bduke.scss */
+#bduke a {
+  font-size: 1em;
+  text-decoration: none;
+  transition: .25s linear;
+  color: white;
+}
+
+/* line 21, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_bduke.scss */
+#bduke a:hover {
+  color: #199D72;
+}
+
+/**********END GLOBAL CSS**********/
+/**********BEGIN HOME PAGE**********/
+/*SEPERATE SLIDESHOW FROM CONTENT*/
+/* line 6, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_home.scss */
+.seperator {
+  width: 100%;
+  height: 1em;
+}
+
+/*TEXT*/
+/* line 14, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_home.scss */
+#mainHome h1,
+#mainHome h2,
+#mainHome p {
+  text-align: center;
+}
+
+/* line 20, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_home.scss */
+#mainHome blockquote {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/*FLUID CALENDAR*/
+/*WIDE SCREEN*/
+@media only screen and (min-width: 1001px) {
+  /* line 32, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_home.scss */
+  #calendarWrapper {
+    width: 80%;
+  }
+}
+
+/*NARROW SCREEN*/
+@media only screen and (max-width: 1000px) {
+  /* line 41, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_home.scss */
+  #calendarWrapper {
+    width: 100%;
+  }
+}
+
+/* line 46, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_home.scss */
+#calendar {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* line 52, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_home.scss */
+#calendarWrapper {
+  height: 30em;
+  margin: 2em auto 2em auto;
+}
+
+/**********END HOME PAGE**********/
+/**********BEGIN ABOUT**********/
+/*OFFICER CONTAINER*/
+/* line 6, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_about.scss */
+#mainAbout .officer {
+  width: 100%;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+}
+
+/* line 13, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_about.scss */
+#mainAbout .officerDesc p:nth-child(2) {
+  text-align: justify;
+}
+
+/* line 17, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_about.scss */
+#mainAbout #valuesParagraph {
+  text-align: justify;
+}
+
+/*OFFICER NAME COLOR*/
+/* line 24, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_about.scss */
+#mainAbout .officerTitle {
+  color: #199D72;
+}
+
+/*TEXT*/
+/* line 31, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_about.scss */
+#mainAbout h1,
+#mainAbout h2,
+#mainAbout h3,
+#mainAbout h4,
+#mainAbout p {
+  text-align: center;
+}
+
+/*IMAGES:WIDE SCREEN*/
+@media only screen and (min-width: 1001px) {
+  /*SPACE OUT THE VALUES*/
+  /* line 44, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_about.scss */
+  #mainAbout .values {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  /*ALIGN STUFF ABOUT OFFICERS*/
+  /* line 49, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_about.scss */
+  #mainAbout .officerPic {
+    width: 30%;
+    padding-right: 2%;
+    display: inline;
+  }
+  /* line 54, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_about.scss */
+  #mainAbout .officerDesc {
+    float: right;
+    width: 68%;
+  }
+  /*DON'T SHOW MOBILE NAME*/
+  /* line 59, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_about.scss */
+  #mainAbout .officerTitleM {
+    display: none;
+  }
+}
+
+/*IMAGES:NARROW SCREEN*/
+@media only screen and (max-width: 1000px) {
+  /*VALUES MOBILE*/
+  /* line 69, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_about.scss */
+  #mainAbout .values {
+    display: block;
+  }
+  /*HOW TO DISPLAY STUFF ABOUT OFFICERS*/
+  /* line 73, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_about.scss */
+  #mainAbout .officer {
+    flex-direction: column;
+  }
+  /* line 76, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_about.scss */
+  #mainAbout .officerTitleM {
+    order: 1;
+  }
+  /* line 79, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_about.scss */
+  #mainAbout .officerPic {
+    order: 2;
+    width: 70%;
+  }
+  /* line 83, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_about.scss */
+  #mainAbout .officerDesc {
+    order: 3;
+    width: 100%;
+  }
+  /*DON'T SHOW DESKTOP TITLE*/
+  /* line 88, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_about.scss */
+  #mainAbout .officerTitleD {
+    display: none;
+  }
+}
+
+/**********END ABOUT**********/
+/**********BEGIN RESOURCES and SUB-PAGES**********/
+/*TABLE*/
+/* line 6, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_resources.scss */
+.resourcesNav {
+  width: 100%;
+  border-collapse: collapse;
+  background-image: url(../contents/webImages/blur.png);
+}
+
+/* line 12, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_resources.scss */
+.resourcesNav tr {
+  border-spacing: 5em;
+}
+
+/* line 16, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_resources.scss */
+.resourcesNav tr td {
+  border-bottom: 0.2em solid #125D53;
+  overflow: hidden;
+}
+
+/* line 21, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_resources.scss */
+.resourcesNav tr td:last-child {
+  border-bottom: none;
+}
+
+/* line 25, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_resources.scss */
+.resourcesNav tr td {
+  display: block;
+}
+
+/*DROP DOWN STYLING*/
+/*WIDE SCREEN*/
+@media only screen and (min-width: 1001px) {
+  /* line 36, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_resources.scss */
+  .resourcePages {
+    margin-top: 5em;
+  }
+  /* line 39, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_resources.scss */
+  #mainResources .resourcesAccordion,
+  #mainReference .resourcesAccordion {
+    width: 70%;
+  }
+  /* line 43, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_resources.scss */
+  .resourcesAccordion,
+  .pageJumpAccordion {
+    min-width: 35%;
+    max-width: 100%;
+    position: absolute;
+  }
+  /* line 49, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_resources.scss */
+  .resourcesAccordion {
+    top: 0;
+    left: 15%;
+  }
+  /* line 53, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_resources.scss */
+  .pageJumpAccordion {
+    top: 0;
+    right: 15%;
+  }
+}
+
+/* line 59, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_resources.scss */
+#ac-0,
+#ac-1 {
+  display: none;
+}
+
+/* line 64, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_resources.scss */
+#resourceJump {
+  width: 100%;
+}
+
+/* line 68, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_resources.scss */
+#resourceJump td {
+  overflow: hidden;
+}
+
+/* line 72, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_resources.scss */
+.resourcesAccordion label h3,
+.pageJumpAccordion label h3 {
+  float: left;
+}
+
+/* line 77, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_resources.scss */
+.resourcesAccordion .article,
+.pageJumpAccordion .article {
+  overflow: hidden;
+  max-height: 0px;
+}
+
+/* line 83, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_resources.scss */
+.resourcesAccordion input:checked ~ .article.ac-small,
+.pageJumpAccordion input:checked ~ .article.ac-small {
+  max-height: 45em;
+}
+
+/*DROPDOWN ARROW*/
+/* line 91, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_resources.scss */
+#resourcesDown0,
+#resourcesDown1 {
+  float: right;
+  width: 3em;
+  cursor: pointer;
+  margin: -5em;
+  padding: 5em;
+  transform: rotate(0deg);
+  transition: .2s linear;
+}
+
+/* line 102, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_resources.scss */
+.resourcesAccordion input:checked ~ label #resourceJump tr td #resourcesDown0,
+.pageJumpAccordion input:checked ~ label #resourceJump tr td #resourcesDown1 {
+  transform: rotate(180deg);
+}
+
+/*DROP DOWN ACTION*/
+/* line 110, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_resources.scss */
+.resourcesAccordion input:checked ~ .article,
+.pageJumpAccordion input:checked ~ .article {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+/* line 119, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_resources.scss */
+.resourcesAccordion .article,
+.pageJumpAccordion .article {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/*TEXT*/
+/* line 131, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_resources.scss */
+.resourcesNav tr td h3 a {
+  text-decoration: none;
+  margin: -8em;
+  padding: 8em;
+}
+
+/* line 137, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_resources.scss */
+.resourcesNav tr td h3 {
+  text-align: center;
+}
+
+/* line 141, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_resources.scss */
+#resourcesNavWrapper a.currentPage {
+  color: #199D72;
+}
+
+/**********END RESOURCES and SUB-PAGES**********/
+/**********BEGIN LIBRARY**********/
+/* line 3, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+.bookRadio {
+  display: none;
+}
+
+/* line 7, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+#mainLibrary h1,
+#mainLibrary h3 {
+  text-align: center;
+}
+
+/* line 12, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+#coversContainer {
+  text-align: center;
+}
+
+/* line 16, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+#mainLibrary .cover {
+  display: inline;
+}
+
+/* line 20, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+#mainLibrary .books img {
+  margin-left: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  display: inline;
+  border: 1px solid black;
+}
+
+/* line 29, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+#mainLibrary .cover img {
+  margin-left: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  height: 18em;
+}
+
+/* line 37, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+#mainLibrary .books {
+  text-align: center;
+}
+
+/*WIDE SCREEN*/
+@media only screen and (min-width: 1001px) {
+  /* line 45, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+  #mainLibrary .books img {
+    height: 18em;
+  }
+}
+
+/*NARROW SCREEN*/
+@media only screen and (max-width: 1000px) {
+  /* line 54, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+  #mainLibrary .books img {
+    height: 14em;
+  }
+}
+
+/* line 59, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+#mainLibrary .books {
+  overflow-y: auto;
+  margin-bottom: 1em;
+}
+
+/* line 64, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+#mainLibrary .books img:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* line 68, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+.cover {
+  width: 40%;
+}
+
+/* line 72, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 87, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+.bookLabel {
+  cursor: pointer;
+}
+
+/* line 91, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+.popup {
+  background: #fff;
+  border-radius: 5px;
+  width: 80%;
+  position: relative;
+  transition: all 1s ease-in-out;
+  max-height: 100vh;
+}
+
+/* line 100, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+.popup h2 {
+  margin-top: 0;
+  padding-top: .5em;
+  text-align: center;
+}
+
+/* line 106, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+.popup .close {
+  position: absolute;
+  transition: all 200ms;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #2F2F2F;
+}
+
+/* line 115, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+.popup .close:hover {
+  color: #199D72;
+}
+
+/* line 119, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+.popup .books {
+  max-height: 80vh;
+}
+
+@media only screen and (min-width: 1001px) {
+  /* line 125, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+  .popup .close {
+    top: 20px;
+    right: 30px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  /* line 133, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+  .cover {
+    width: 80%;
+  }
+  /* line 136, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+  .popup {
+    width: 80%;
+  }
+  /* line 139, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+  .popup .close {
+    top: 40px;
+    right: 30px;
+  }
+  /* line 143, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+  .noNAV:checked ~ .fixed-mobile-nav,
+  .noNAV:checked ~ #menu,
+  .noNAV:checked ~ nav {
+    visibility: hidden;
+    opacity: 0;
+    transition: .25s ease-in-out;
+  }
+  /*can't click if nav is open*/
+  /* line 151, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+  .nav-trigger:checked ~ #wrapper > #content > #mainLibrary > #coversContainer > .cover > .bookLabel {
+    pointer-events: none;
+  }
+  /* line 154, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_pages/_library.scss */
+  .noNAV:checked ~ #nav-trigger {
+    display: none;
+  }
+}
+
+/**********END LIBRARY**********/
+/**********BEGIN CSS SLIDER**********/
+/*CSS RESET*/
+/* line 3, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_cssSlider.scss */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/*FONT IMPORT*/
+@font-face {
+  font-family: timeburner;
+  src: url(timeburner.ttf);
+}
+
+/*sizing*/
+/*for full screen calculate (desired height of slider in vh * width of img) / height of img with vh as units
+for normal slider just uncomment the second width*/
+/*slider imports*/
+/********** NEXT SLIDE ARROW NAVIGATION **********/
+/*APPEARANCE*/
+/* line 6, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_arrowNavigation.scss */
+#cssSlider > input {
+  /*new wrapper to this*/
+  display: none;
+}
+
+/* line 11, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_arrowNavigation.scss */
+#cssSlider > #pageNav {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 15;
+  width: 100%;
+  height: 10vw;
+}
+
+/* line 21, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_arrowNavigation.scss */
+#cssSlider > #pageNav > #previousArrow > .slideL,
+#cssSlider > #pageNav > #playPause > .playPauseBtn,
+#cssSlider > #pageNav > #nextArrow > .slideR {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  -webkit-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+}
+
+/* line 42, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_arrowNavigation.scss */
+#cssSlider > #pageNav > #previousArrow > .slideL {
+  width: 10vw;
+  height: 10vw;
+  background: url(icons/previous.png);
+  background-image: url(icons/previous.svg), none;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: -1;
+}
+
+/* line 46, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_arrowNavigation.scss */
+#cssSlider > #pageNav > #nextArrow > .slideR {
+  width: 10vw;
+  height: 10vw;
+  background: url(icons/next.png);
+  background-image: url(icons/next.svg), none;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: -1;
+}
+
+/* line 50, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_arrowNavigation.scss */
+#cssSlider > #pageNav > #playPause > #playBtn {
+  width: 10vw;
+  height: 10vw;
+  background: url(icons/play.png);
+  background-image: url(icons/play.svg), none;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: -1;
+}
+
+/* line 54, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_arrowNavigation.scss */
+#cssSlider > #pageNav > #playPause > #pauseBtn {
+  width: 10vw;
+  height: 10vw;
+  background: url(icons/pause.png);
+  background-image: url(icons/pause.svg), none;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: -1;
+}
+
+/*POSITION*/
+/* line 61, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_arrowNavigation.scss */
+#cssSlider > #pageNav > #previousArrow > .slideL {
+  left: 2vw;
+}
+
+/* line 65, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_arrowNavigation.scss */
+#cssSlider > #pageNav > #playPause > .playPauseBtn {
+  left: 50%;
+  margin: 0 0 0 -5vw;
+}
+
+/* line 70, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_arrowNavigation.scss */
+#cssSlider > #pageNav > #nextArrow > .slideR {
+  right: 2vw;
+}
+
+/*ONLY DISPLAY IF ON SLIDER*/
+/* line 77, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_arrowNavigation.scss */
+#cssSlider > #pageNav:hover > #previousArrow > .slideL,
+#cssSlider > #pageNav:hover > #playPause > .playPauseBtn,
+#cssSlider > #pageNav:hover > #nextArrow > .slideR,
+#cssSlider #sliderImages:hover ~ #pageNav #previousArrow .slideL,
+#cssSlider > #sliderImages:hover ~ #pageNav > #playPause > .playPauseBtn,
+#cssSlider > #sliderImages:hover ~ #pageNav > #nextArrow > .slideR {
+  opacity: 1;
+}
+
+/*DON'T SHOW PLAY AND PAUSE*/
+/* line 89, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_arrowNavigation.scss */
+#cssSlider > #play:not(:checked) ~ #pageNav > #playPause > #pauseBtn {
+  display: none;
+}
+
+/* line 93, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_arrowNavigation.scss */
+#cssSlider > #play:checked ~ #pageNav > #playPause > #playBtn {
+  display: none;
+}
+
+/*WHICH ARROW SHOULD BE ON TOP*/
+/* line 100, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_arrowNavigation.scss */
+#cssSlider > #slide1:checked ~ #pageNav > #previousArrow > #slideL6,
+#cssSlider > #slide1:checked ~ #pageNav > #nextArrow > #slideR2,
+#cssSlider > #slide2:checked ~ #pageNav > #previousArrow > #slideL1,
+#cssSlider > #slide2:checked ~ #pageNav > #nextArrow > #slideR3,
+#cssSlider > #slide3:checked ~ #pageNav > #previousArrow > #slideL2,
+#cssSlider > #slide3:checked ~ #pageNav > #nextArrow > #slideR4,
+#cssSlider > #slide4:checked ~ #pageNav > #previousArrow > #slideL3,
+#cssSlider > #slide4:checked ~ #pageNav > #nextArrow > #slideR5,
+#cssSlider > #slide5:checked ~ #pageNav > #previousArrow > #slideL4,
+#cssSlider > #slide5:checked ~ #pageNav > #nextArrow > #slideR6,
+#cssSlider > #slide6:checked ~ #pageNav > #previousArrow > #slideL5,
+#cssSlider > #slide6:checked ~ #pageNav > #nextArrow > #slideR1 {
+  z-index: 15;
+}
+
+/*STARTING ARROW ANIMATION, FOR WHICH TO BE ON TOP*/
+/* line 123, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_arrowNavigation.scss */
+#cssSlider > #play:checked ~ #pageNav > #previousArrow > #slideL6,
+#cssSlider > #play:checked ~ #pageNav > #nextArrow > #slideR2 {
+  -webkit-animation: arrows 40000ms infinite 0ms;
+  animation: arrows 40000ms infinite 0ms;
+}
+
+/* line 128, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_arrowNavigation.scss */
+#cssSlider > #play:checked ~ #pageNav > #previousArrow > #slideL1,
+#cssSlider > #play:checked ~ #pageNav > #nextArrow > #slideR3 {
+  -webkit-animation: arrows 40000ms infinite 6666.66666667ms;
+  animation: arrows 40000ms infinite 6666.66666667ms;
+}
+
+/* line 133, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_arrowNavigation.scss */
+#cssSlider > #play:checked ~ #pageNav > #previousArrow > #slideL2,
+#cssSlider > #play:checked ~ #pageNav > #nextArrow > #slideR4 {
+  -webkit-animation: arrows 40000ms infinite 13333.3333333ms;
+  animation: arrows 40000ms infinite 13333.3333333ms;
+}
+
+/* line 138, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_arrowNavigation.scss */
+#cssSlider > #play:checked ~ #pageNav > #previousArrow > #slideL3,
+#cssSlider > #play:checked ~ #pageNav > #nextArrow > #slideR5 {
+  -webkit-animation: arrows 40000ms infinite 20000ms;
+  animation: arrows 40000ms infinite 20000ms;
+}
+
+/* line 143, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_arrowNavigation.scss */
+#cssSlider > #play:checked ~ #pageNav > #previousArrow > #slideL4,
+#cssSlider > #play:checked ~ #pageNav > #nextArrow > #slideR6 {
+  -webkit-animation: arrows 40000ms infinite 26666.6666667ms;
+  animation: arrows 40000ms infinite 26666.6666667ms;
+}
+
+/* line 148, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_arrowNavigation.scss */
+#cssSlider > #play:checked ~ #pageNav > #previousArrow > #slideL5,
+#cssSlider > #play:checked ~ #pageNav > #nextArrow > #slideR1 {
+  -webkit-animation: arrows 40000ms infinite 33333.3333333ms;
+  animation: arrows 40000ms infinite 33333.3333333ms;
+}
+
+/********** END NEXT SLIDE ARROW NAVIGATION **********/
+/********** SLIDE INDICATORS **********/
+/*PAGE INDICATORS APPEARANCE*/
+/* line 6, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideIndicators.scss */
+#cssSlider > #pageIndicators {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 15;
+}
+
+/* line 14, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideIndicators.scss */
+#cssSlider > #pageIndicators > .indicator {
+  display: inline-block;
+  height: 1.5em;
+  width: 1.5em;
+  border-radius: 100%;
+  background-color: #ABB7B7;
+  /*color of page indicator*/
+  cursor: pointer;
+}
+
+/*why can't i mix in or anything here?*/
+/* line 27, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideIndicators.scss */
+#cssSlider > #pageIndicators > .indicator > .hoverPoint {
+  margin: .5em;
+  display: inline-block;
+  height: .5em;
+  width: .5em;
+  border-radius: 100%;
+  background: transparent;
+  transition: .3s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+  z-index: 16;
+}
+
+/* line 39, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideIndicators.scss */
+#cssSlider > #pageIndicators > .indicator > .hoverPoint > .point {
+  margin-bottom: .5em;
+  display: inline-block;
+  height: .5em;
+  width: .5em;
+  border-radius: 100%;
+  background: transparent;
+  transition: .3s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+}
+
+/*STARTING PAGE INDICATOR WHICH TO BE LIT ANIMATION*/
+/* line 58, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideIndicators.scss */
+#cssSlider > #play:checked ~ #pageIndicators > .indicator > .hoverPoint > #point1,
+#cssSlider > #pause:checked ~ #pageIndicators > .indicator > .hoverPoint > #point1 {
+  -webkit-animation: point 40000ms infinite 0ms;
+  animation: point 40000ms infinite 0ms;
+}
+
+/* line 63, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideIndicators.scss */
+#cssSlider > #play:checked ~ #pageIndicators > .indicator > .hoverPoint > #point2,
+#cssSlider > #pause:checked ~ #pageIndicators > .indicator > .hoverPoint > #point2 {
+  -webkit-animation: point 40000ms infinite 6666.66666667ms;
+  animation: point 40000ms infinite 6666.66666667ms;
+}
+
+/* line 68, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideIndicators.scss */
+#cssSlider > #play:checked ~ #pageIndicators > .indicator > .hoverPoint > #point3,
+#cssSlider > #pause:checked ~ #pageIndicators > .indicator > .hoverPoint > #point3 {
+  -webkit-animation: point 40000ms infinite 13333.3333333ms;
+  animation: point 40000ms infinite 13333.3333333ms;
+}
+
+/* line 73, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideIndicators.scss */
+#cssSlider > #play:checked ~ #pageIndicators > .indicator > .hoverPoint > #point4,
+#cssSlider > #pause:checked ~ #pageIndicators > .indicator > .hoverPoint > #point4 {
+  -webkit-animation: point 40000ms infinite 20000ms;
+  animation: point 40000ms infinite 20000ms;
+}
+
+/* line 78, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideIndicators.scss */
+#cssSlider > #play:checked ~ #pageIndicators > .indicator > .hoverPoint > #point5,
+#cssSlider > #pause:checked ~ #pageIndicators > .indicator > .hoverPoint > #point5 {
+  -webkit-animation: point 40000ms infinite 26666.6666667ms;
+  animation: point 40000ms infinite 26666.6666667ms;
+}
+
+/* line 83, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideIndicators.scss */
+#cssSlider > #play:checked ~ #pageIndicators > .indicator > .hoverPoint > #point6,
+#cssSlider > #pause:checked ~ #pageIndicators > .indicator > .hoverPoint > #point6 {
+  -webkit-animation: point 40000ms infinite 33333.3333333ms;
+  animation: point 40000ms infinite 33333.3333333ms;
+}
+
+/*WHICH INDICATOR SHOULD BE LIT*/
+/* line 91, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideIndicators.scss */
+#cssSlider > #slide1:checked ~ #pageIndicators > .indicator > .hoverPoint > #point1,
+#cssSlider > #slide2:checked ~ #pageIndicators > .indicator > .hoverPoint > #point2,
+#cssSlider > #slide3:checked ~ #pageIndicators > .indicator > .hoverPoint > #point3,
+#cssSlider > #slide4:checked ~ #pageIndicators > .indicator > .hoverPoint > #point4,
+#cssSlider > #slide5:checked ~ #pageIndicators > .indicator > .hoverPoint > #point5,
+#cssSlider > #slide6:checked ~ #pageIndicators > .indicator > .hoverPoint > #point6 {
+  background: #F2F1EF;
+  /*color of page indicator dot*/
+}
+
+/*used to override the animation for lit indicator*/
+/* line 104, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideIndicators.scss */
+#cssSlider > #pageIndicators > .indicator:hover > .hoverPoint {
+  background: #F2F1EF;
+  /*color of page indicator dot*/
+}
+
+/********** END SLIDE INDICATORS **********/
+/**********IMAGE/SLIDER STYLING **********/
+/*don't show the other images*/
+/* line 6, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slider.scss */
+#cssSlider {
+  position: relative;
+  overflow: hidden;
+}
+
+/*the size of the responsive slider*/
+/*which mode to use*/
+/*normal display*/
+/* line 33, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slider.scss */
+#cssSlider {
+  padding-bottom: 43.9453125%;
+  /*to find % aspect ratio, (height/width)100*/
+  height: 0;
+}
+
+/* line 37, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slider.scss */
+#cssSlider #sliderImages {
+  left: 0;
+  width: 600vw;
+  /*size of the images*/
+}
+
+/* line 41, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slider.scss */
+#cssSlider #sliderImages img,
+#cssSlider #sliderImages a > img {
+  width: 100vw;
+  height: 100%;
+  float: left;
+}
+
+/* line 52, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slider.scss */
+#cssSlider > #sliderImages {
+  /* IE 10+ hack - cant animate translate */
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  /* line 52, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slider.scss */
+  #cssSlider > #sliderImages {
+    animation-name: slider-ie !important;
+    animation-duration: 40s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+}
+
+/*animation to use*/
+/*animation parameters*/
+/*not ie use these animations*/
+/* line 100, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slider.scss */
+#cssSlider > #sliderImages {
+  -webkit-animation-name: slider;
+  -webkit-animation-duration: 40s;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: slider;
+  animation-duration: 40s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+/* line 111, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slider.scss */
+#cssSlider > #sliderImages {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  /*this is the time to transition between images
+    when using the arrows*/
+  transition: 2.66666666667s;
+}
+
+/********** END IMAGE/SLIDER STYLING **********/
+/********** SLIDER TEXT **********/
+/* line 3, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideDesc.scss */
+#cssSlider > #slideDesc > .slideText {
+  position: absolute;
+  bottom: 0;
+  padding: .6em;
+  margin: 2em;
+  max-width: calc(100vw - 4em);
+  background-color: #ABB7B7;
+  /*color of blurb box*/
+  border-radius: .5em;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transform: translateY(-100px);
+  transform: translateY(-100px);
+  -webkit-transition: 950ms opacity 850ms cubic-bezier(0.68, -0.55, 0.265, 1.55), 950ms -webkit-transform 850ms cubic-bezier(0.68, -0.55, 0.265, 1.55), 950ms visibility 850ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: 950ms opacity 850ms cubic-bezier(0.68, -0.55, 0.265, 1.55), 950ms -webkit-transform 850ms cubic-bezier(0.68, -0.55, 0.265, 1.55), 950ms transform 850ms cubic-bezier(0.68, -0.55, 0.265, 1.55), 950ms visibility 850ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* line 20, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideDesc.scss */
+#cssSlider > #slideDesc > .slideText > p {
+  padding: .1em;
+  margin: 0;
+  color: black;
+  /*color of blurb box text*/
+  font-size: 2em;
+  font-family: timeburner;
+}
+
+/*BRING THE TEXT FORWARD ON ITS PAGE*/
+/* line 32, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideDesc.scss */
+#cssSlider > #slide1:checked ~ #slideDesc > #slideText1,
+#cssSlider > #slide2:checked ~ #slideDesc > #slideText2,
+#cssSlider > #slide3:checked ~ #slideDesc > #slideText3,
+#cssSlider > #slide4:checked ~ #slideDesc > #slideText4,
+#cssSlider > #slide5:checked ~ #slideDesc > #slideText5,
+#cssSlider > #slide6:checked ~ #slideDesc > #slideText6 {
+  z-index: 2;
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+/*TEXT BOX ANIMATION*/
+/* line 52, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideDesc.scss */
+#cssSlider > #play:checked ~ #slideDesc > #slideText1,
+#cssSlider > #pause:checked ~ #slideDesc > #slideText1 {
+  -webkit-animation: textBoxBounce 40000ms infinite 0ms;
+  animation: textBoxBounce 40000ms infinite 0ms;
+}
+
+/* line 57, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideDesc.scss */
+#cssSlider > #play:checked ~ #slideDesc > #slideText2,
+#cssSlider > #pause:checked ~ #slideDesc > #slideText2 {
+  -webkit-animation: textBoxBounce 40000ms infinite 6666.66666667ms;
+  animation: textBoxBounce 40000ms infinite 6666.66666667ms;
+}
+
+/* line 62, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideDesc.scss */
+#cssSlider > #play:checked ~ #slideDesc > #slideText3,
+#cssSlider > #pause:checked ~ #slideDesc > #slideText3 {
+  -webkit-animation: textBoxBounce 40000ms infinite 13333.3333333ms;
+  animation: textBoxBounce 40000ms infinite 13333.3333333ms;
+}
+
+/* line 67, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideDesc.scss */
+#cssSlider > #play:checked ~ #slideDesc > #slideText4,
+#cssSlider > #pause:checked ~ #slideDesc > #slideText4 {
+  -webkit-animation: textBoxBounce 40000ms infinite 20000ms;
+  animation: textBoxBounce 40000ms infinite 20000ms;
+}
+
+/* line 72, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideDesc.scss */
+#cssSlider > #play:checked ~ #slideDesc > #slideText5,
+#cssSlider > #pause:checked ~ #slideDesc > #slideText5 {
+  -webkit-animation: textBoxBounce 40000ms infinite 26666.6666667ms;
+  animation: textBoxBounce 40000ms infinite 26666.6666667ms;
+}
+
+/* line 77, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideDesc.scss */
+#cssSlider > #play:checked ~ #slideDesc > #slideText6,
+#cssSlider > #pause:checked ~ #slideDesc > #slideText6 {
+  -webkit-animation: textBoxBounce 40000ms infinite 33333.3333333ms;
+  animation: textBoxBounce 40000ms infinite 33333.3333333ms;
+}
+
+/********** END SLIDER TEXT **********/
+/********** PLAY PAUSE OF ALL ANIMATIONS **********/
+/*restart the show*/
+/* line 6, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideAdvancement.scss */
+#cssSlider > #slide1:checked ~ #sliderImages,
+#cssSlider > #slide2:checked ~ #sliderImages,
+#cssSlider > #slide3:checked ~ #sliderImages,
+#cssSlider > #slide4:checked ~ #sliderImages,
+#cssSlider > #slide5:checked ~ #sliderImages,
+#cssSlider > #slide6:checked ~ #sliderImages {
+  -webkit-animation: none;
+  animation: none;
+}
+
+/*pause all animations*/
+/* line 19, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideAdvancement.scss */
+#cssSlider > #pause:checked ~ #sliderImages,
+#cssSlider > #pause:checked ~ #slideDesc > #slideText1,
+#cssSlider > #pause:checked ~ #slideDesc > #slideText2,
+#cssSlider > #pause:checked ~ #slideDesc > #slideText3,
+#cssSlider > #pause:checked ~ #slideDesc > #slideText4,
+#cssSlider > #pause:checked ~ #slideDesc > #slideText5,
+#cssSlider > #pause:checked ~ #slideDesc > #slideText6,
+#cssSlider > #pause:checked ~ #pageNav #previousArrow > #slideL6,
+#cssSlider > #pause:checked ~ #pageNav > #nextArrow > #slideR2,
+#cssSlider > #pause:checked ~ #pageNav > #previousArrow > #slideL1,
+#cssSlider > #pause:checked ~ #pageNav > #nextArrow > #slideR3,
+#cssSlider > #pause:checked ~ #pageNav > #previousArrow > #slideL2,
+#cssSlider > #pause:checked ~ #pageNav > #nextArrow > #slideR4,
+#cssSlider > #pause:checked ~ #pageNav > #previousArrow > #slideL3,
+#cssSlider > #pause:checked ~ #pageNav > #nextArrow > #slideR5,
+#cssSlider > #pause:checked ~ #pageNav > #previousArrow > #slideL4,
+#cssSlider > #pause:checked ~ #pageNav > #nextArrow > #slideR6,
+#cssSlider > #pause:checked ~ #pageNav > #previousArrow > #slideL5,
+#cssSlider > #pause:checked ~ #pageNav #nextArrow > #slideR1,
+#cssSlider > #pause:checked ~ #pageIndicators > .indicator > .hoverPoint > #point1,
+#cssSlider > #pause:checked ~ #pageIndicators > .indicator > .hoverPoint > #point2,
+#cssSlider > #pause:checked ~ #pageIndicators > .indicator > .hoverPoint > #point3,
+#cssSlider > #pause:checked ~ #pageIndicators > .indicator > .hoverPoint > #point4,
+#cssSlider > #pause:checked ~ #pageIndicators > .indicator > .hoverPoint > #point5,
+#cssSlider > #pause:checked ~ #pageIndicators > .indicator > .hoverPoint > #point6 {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+/********** END PLAY PAUSE OF ALL ANIMATIONS **********/
+/********** MANUAL PAGE ADVANCEMENT **********/
+/********** END MANUAL PAGE ADVANCEMENT **********/
+/********** AUTOMATIC PAGE ADVANCEMENT **********/
+/********** END AUTOMATIC PAGE ADVANCEMENT **********/
+/*advancement mode based on chosen size*/
+/*which mode to use*/
+/*normal display*/
+/* line 55, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideAdvancement.scss */
+#cssSlider > #slide1:checked ~ #sliderImages {
+  margin-left: 0;
+}
+
+/* line 58, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideAdvancement.scss */
+#cssSlider > #slide2:checked ~ #sliderImages {
+  margin-left: -100vw;
+}
+
+/* line 61, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideAdvancement.scss */
+#cssSlider > #slide3:checked ~ #sliderImages {
+  margin-left: -200vw;
+}
+
+/* line 64, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideAdvancement.scss */
+#cssSlider > #slide4:checked ~ #sliderImages {
+  margin-left: -300vw;
+}
+
+/* line 67, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideAdvancement.scss */
+#cssSlider > #slide5:checked ~ #sliderImages {
+  margin-left: -400vw;
+}
+
+/* line 70, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_slideAdvancement.scss */
+#cssSlider > #slide6:checked ~ #sliderImages {
+  margin-left: -500vw;
+}
+
+@keyframes slider {
+  0%,
+  10% {
+    transform: translateX(0);
+  }
+  16.6666666667%,
+  26.6666666667% {
+    transform: translateX(-100vw);
+  }
+  33.3333333333%,
+  43.3333333333% {
+    transform: translateX(-200vw);
+  }
+  50%,
+  60% {
+    transform: translateX(-300vw);
+  }
+  66.6666666667%,
+  76.6666666667% {
+    transform: translateX(-400vw);
+  }
+  83.3333333333%,
+  93.3333333333% {
+    transform: translateX(-500vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes slider {
+  0%,
+  10% {
+    transform: translateX(0);
+  }
+  16.6666666667%,
+  26.6666666667% {
+    transform: translateX(-100vw);
+  }
+  33.3333333333%,
+  43.3333333333% {
+    transform: translateX(-200vw);
+  }
+  50%,
+  60% {
+    transform: translateX(-300vw);
+  }
+  66.6666666667%,
+  76.6666666667% {
+    transform: translateX(-400vw);
+  }
+  83.3333333333%,
+  93.3333333333% {
+    transform: translateX(-500vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/*IE FIX*/
+@keyframes slider-ie {
+  0%,
+  10% {
+    margin-left: 0;
+  }
+  16.6666666667%,
+  26.6666666667% {
+    margin-left: -100vw;
+  }
+  33.3333333333%,
+  43.3333333333% {
+    margin-left: -200vw;
+  }
+  50%,
+  60% {
+    margin-left: -300vw;
+  }
+  66.6666666667%,
+  76.6666666667% {
+    margin-left: -400vw;
+  }
+  83.3333333333%,
+  93.3333333333% {
+    margin-left: -500vw;
+  }
+  100% {
+    margin-left: -.1vw;
+    /*can't be 0, gives blank page*/
+  }
+}
+
+/********** ANIMATIONS **********/
+/*arrows*/
+@-webkit-keyframes arrows {
+  0%,
+  16.656666666666666% {
+    opacity: 1;
+    z-index: 15;
+  }
+  16.666666666666668%,
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@keyframes arrows {
+  0%,
+  16.656666666666666% {
+    z-index: 15;
+  }
+  16.666666666666668%,
+  100% {
+    z-index: -1;
+  }
+}
+
+/*page indicators*/
+@keyframes point {
+  1%,
+  16% {
+    background: #F2F1EF;
+    /*color of page indicator dot*/
+  }
+  17%,
+  100% {
+    background: transparent;
+  }
+}
+
+@-webkit-keyframes point {
+  0%,
+  16% {
+    background: #F2F1EF;
+    /*color of page indicator dot*/
+  }
+  17%,
+  100% {
+    background: transparent;
+  }
+}
+
+/*text box*/
+@-webkit-keyframes textBoxBounce {
+  0.6927083333333334%,
+  15.963958333333334% {
+    opacity: 1;
+    z-index: 2;
+    visibility: visible;
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+  0.9895833333333334%,
+  15.667083333333334% {
+    opacity: 1;
+    z-index: 2;
+    visibility: visible;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  17.65625% {
+    opacity: 0;
+    z-index: 2;
+    visibility: hidden;
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+  }
+  17.66625%,
+  100% {
+    z-index: 0;
+  }
+}
+
+@keyframes textBoxBounce {
+  0.6927083333333334%,
+  15.963958333333334% {
+    opacity: 1;
+    z-index: 2;
+    visibility: visible;
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+  0.9895833333333334%,
+  15.667083333333334% {
+    opacity: 1;
+    z-index: 2;
+    visibility: visible;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  17.65625% {
+    opacity: 0;
+    z-index: 2;
+    visibility: hidden;
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+  }
+  17.66625%,
+  100% {
+    z-index: 0;
+  }
+}
+
+/********** END ANIMATIONS **********/
+/*FOR MOBILE*/
+@media screen and (max-width: 1000px) {
+  /* line 34, H:/PortableGit/repos/MUGeeksandGadgets.github.io/scss/_vendors/_cssSliderScss/_cssSlider.scss */
+  #cssSlider > #slideDesc > .slideText,
+  #cssSlider > #pageIndicators {
+    display: none;
+  }
+}
+
+/**********END CSS SLIDER**********/
+
+/*# sourceMappingURL=../css/style.map */
