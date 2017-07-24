@@ -22,7 +22,7 @@ thus it would be in the same folder as the "About" page.
 ## Page Formating
 
 All page formating will be done through CSS.  The general, site-wide
-stylesheet is located at ROOT/css/wideScreen.css or ROOT/css/mobile.css. This is so that the CSS can be changed depending on the screen size.  All pages will be
+stylesheet is located at ROOT/css/style.css. All pages will be
 styled the same with the exception of a key element that seperates that
 page from the rest of the site.  **All** Images, and any other contents should be placed in the `ROOT/contents/` directory.
 
