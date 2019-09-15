@@ -1,6 +1,4 @@
-# Folder
-old.old/*
-.idea
-# Backup files for vim & nano
-*~
-.*.swp
+_site
+.sass-cache
+.jekyll-metadata
+vendor/bundle/

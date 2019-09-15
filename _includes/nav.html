@@ -1,0 +1,62 @@
+<nav class="navbar navbar-expand-lg navbar-dark">
+	<div class="container">
+
+		<a class="navbar-brand p-0" href="{{ site.baseurl }}/">
+			<img src="{{ site.baseurl }}/img/logos/gg.svg" alt="logo" height=64>
+			<span class="sr-only">Geeks and Gadgets</span>
+		</a>
+
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+			data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+
+				<!-- Library -->
+				<li class="nav-item {% if page.name == 'library.md' %}active{% endif %}">
+					<a class="nav-link" href="{{ site.baseurl }}{% link library.md %}">Library</a>
+				</li>
+
+				<!-- Resources -->
+				<li class="nav-item dropdown">
+					{% assign topdir = page.dir | split: '/' | slice: 1 | first %}
+					<a class="nav-link dropdown-toggle {% if topdir == "resources" %}active{% endif %}" href="#" id="navResources" data-toggle="dropdown" aria-haspopup="true"
+						aria-expanded="false">
+						Resources
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navResources">
+						<a class="dropdown-item {% if page.name == 'resources.md' %}active{% endif %}"
+							href="{{ site.baseurl }}{% link resources.md %}">General</a>
+						<a class="dropdown-item" href="https://github.com/{{ site.github_username }}">
+							GitHub <i class="fas fa-link fa-xs"></i></a>
+						<a class="dropdown-item {% if page.name == 'software.md' %}active{% endif %}"
+							href="{{ site.baseurl }}{% link resources/software.md %}">Software</a>
+						<a class="dropdown-item {% if page.name == 'programming.md' %}active{% endif %}"
+							href="{{ site.baseurl }}{% link resources/programming.md %}">Programming</a>
+					</div>
+				</li>
+
+				<!-- Projects -->
+				<li class="nav-item {% if page.name == 'projects.md' %}active{% endif %}">
+					<a class="nav-link" href="{{ site.baseurl }}{% link projects.md %}">Projects</a>
+				</li>
+
+				<!-- About -->
+				<li class="nav-item {% if page.name == 'about.md' %}active{% endif %}">
+					<a class="nav-link" href="{{ site.baseurl }}{% link about.md %}">About</a>
+				</li>
+
+				<!-- Contact -->
+				<li class="nav-item {% if page.name == 'contact.md' %}active{% endif %}">
+					<a class="nav-link" href="{{ site.baseurl }}{% link contact.md %}">Contact</a>
+				</li>
+
+			</ul>
+		</div>
+
+
+	</div>
+</nav>

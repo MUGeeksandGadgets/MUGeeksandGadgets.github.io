@@ -1,0 +1,99 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16pt;
+}
+
+/*** Header, Footer ***/
+
+nav,
+footer {
+  background-color: #125D53;
+  box-shadow: 0 0 0.5em 0.1em rgba(0, 0, 0, 0.75);
+}
+
+footer {
+  font-size: 12pt;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #DDD;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #DDD;
+  text-decoration: underline;
+}
+
+.navbar-dark .navbar-nav .active .nav-link:hover {
+  color: #FFF;
+}
+
+.navbar-nav .fa-link {
+  position: relative;
+  bottom: 0.15em;
+  color: #007bff!important;
+}
+
+.navbar-nav .dropdown-item.active {
+  background-color: initial;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-accent {
+  background: #666;
+  color: #CCC;
+  text-align: center;
+  font-family: monospace;
+  font-weight: bold;
+  padding: 0.1em 0;
+}
+
+.nav-accent::after {
+  content: '_';
+
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+/*** Carousel ***/
+
+.carousel-control-prev,
+.carousel-control-next,
+.carousel-indicators {
+  filter: invert(100%);
+}
+
+
+/*** Stick Footer ***/
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+/*** Quotes :D ***/
+
+blockquote {
+  border-left: 2px solid blue;
+  padding-left: 0.5em;
+  margin-left: 0.5em;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- <meta name="description" content=""> -->
+	<meta name="author" content="Geeks and Gadgets">
+
+	{% include favicon.html %}
+
+	<title>{{ page.title }} - {{ site.title }}</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="{{ site.baseurl }}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Font Awesome -->
+	<link href="{{ site.baseurl }}/vendor/fontawesome/css/all.css" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="{{ site.baseurl }}/css/base.css" rel="stylesheet">
+
+	{% include gtag.html %}
+
+</head>
+
+<body>
+
+	<header>
+		<!-- Navigation -->
+		{% include nav.html %}
+		{% assign path = page.dir | split: '/' | reverse | slice: 1, 9 | reverse | join: '/' | downcase %}
+		<div class="nav-accent">mugeeks:~{{ path }}$ cat {{ page.name }}</div>
+	</header>
+
+	<main>
+		{{ content }}
+	</main>
+
+	<!-- Footer -->
+	<div class="nav-accent">mugeeks:~{{ path }}$ exit</div>
+	<footer class="container-fluid text-center text-white py-3">
+		<h6 class="m-0 font-weight-bold">MU G&G &copy; 2019</h6>
+	</footer>
+
+	<!-- Bootstrap core JavaScript -->
+	<script src="{{ site.baseurl }}/vendor/jquery/jquery.min.js"></script>
+	<script src="{{ site.baseurl }}/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
