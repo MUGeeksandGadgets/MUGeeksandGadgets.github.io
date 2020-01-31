@@ -5,6 +5,7 @@ images:
 - /img/carousel/GGphoto.jpg
 - /img/carousel/dino.jpg
 - /img/carousel/penguin.jpg
+- /img/carousel/lifestyle.jpg
 ---
 
 <div class="container px-0">{% include carousel.html images=page.images %}</div>
@@ -13,7 +14,7 @@ images:
 
 # Meeting Times
 
-**When**: Wednesdays at 3:45PM (Fall 2019)
+**When**: Fridays at 3:00PM (Spring 2020)
 
 **Where**: Weisberg Applied Engineering Complex, Room 3241
 
